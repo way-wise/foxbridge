@@ -544,7 +544,7 @@
           </div>
         </div>
         <div class="col-lg-6 col-md-12">
-          <div class="content">
+          <div class="content lg:ps-12">
             <h2 data-aos="fade-down">Foxbridge Lounge & Golf Simulator</h2>
             <span class="fancy-border" data-aos="flip-left" data-aos-duration="3000"></span>
             <p data-aos="fade-up">Foxbridge Club house with our newly renovated patios with beautiful views offers
@@ -560,8 +560,8 @@
       <div class="col-md-8 d-table theme_bg hole_clm">
         <div class="row">
           <div class="col-lg-6 col-md-12 mb-5">
-            <div class="txt_icon" data-aos="zoom-in" data-aos-delay="200">
-              <div class="img_iocn">
+            <div class="txt_icon  items-start" data-aos="zoom-in" data-aos-delay="200">
+              <div class="img_iocn min-w-20 size-20 bg-white p-2 rounded-full overflow-hidden inline-flex items-center justify-center">
                 <img src="images/i1.png">
               </div>
               <div class="txt_box">
@@ -572,8 +572,8 @@
             </div>
           </div>
           <div class="col-lg-6 col-md-12 mb-5">
-            <div class="txt_icon" data-aos="zoom-in" data-aos-delay="400">
-              <div class="img_iocn">
+            <div class="txt_icon items-start" data-aos="zoom-in" data-aos-delay="400">
+              <div class="img_iocn min-w-20 size-20 bg-white p-2 rounded-full overflow-hidden inline-flex items-center justify-center">
                 <img src="images/i2.png">
               </div>
               <div class="txt_box">
@@ -586,8 +586,8 @@
         </div>
         <div class="row">
           <div class="col-lg-6 col-md-12 mb-lg-0 mb-md-5 mb-sm-5">
-            <div class="txt_icon" data-aos="zoom-in" data-aos-delay="500">
-              <div class="img_iocn">
+            <div class="txt_icon items-start" data-aos="zoom-in" data-aos-delay="500">
+              <div class="img_iocn min-w-20 size-20 bg-white p-2 rounded-full overflow-hidden inline-flex items-center justify-center">
                 <img src="images/9hole.png">
               </div>
               <div class="txt_box">
@@ -598,8 +598,8 @@
             </div>
           </div>
           <div class="col-lg-6 col-md-12 ">
-            <div class="txt_icon" data-aos="zoom-in" data-aos-delay="600">
-              <div class="img_iocn">
+            <div class="txt_icon items-start" data-aos="zoom-in" data-aos-delay="600">
+              <div class="img_iocn min-w-20 size-20 bg-white p-2 rounded-full overflow-hidden inline-flex items-center justify-center">
                 <img src="images/i4.png">
               </div>
               <div class="txt_box">
