@@ -392,7 +392,6 @@ button.owl-next {
 
 
 .welcome {
-    z-index: 111111;
     margin-top: -135px;
 }
 
@@ -2120,7 +2119,7 @@ End TEE TIME
 
 .site-navbar {
 margin-bottom: 0px;
-z-index: 1999;
+z-index: 9999;
 /*position: absolute;*/
 background:#FFF;
 top: 0;
