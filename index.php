@@ -539,7 +539,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-md-12">
-          <div class="img_box">
+          <div class="img_box rounded-2xl overflow-hidden">
             <img src="images/img1.jpg">
           </div>
         </div>
@@ -643,8 +643,6 @@
               </div>
             </div>
           </div>
-
-
           <div class="item">
             <div class="content">
               <div class="img_box">
@@ -655,7 +653,6 @@
               </div>
             </div>
           </div>
-
           <div class="item">
             <div class="content">
 
@@ -681,7 +678,6 @@
               </div>
             </div>
           </div>
-
           <div class="item">
             <div class="content">
               <div class="img_box">
@@ -693,8 +689,6 @@
               </div>
             </div>
           </div>
-
-
         </div>
       </div>
     </div>
