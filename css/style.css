@@ -395,10 +395,11 @@ button.owl-next {
     z-index: 111111;
     margin-top: -135px;
 }
+
 .welcome_clm a {
     font-size: 28px;
-    margin-bottom: 15px !important;
-    display: inline-block;
+    display: block;
+    padding: 0px;
 }
 
 
