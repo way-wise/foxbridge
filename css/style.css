@@ -374,25 +374,23 @@ button.owl-next span {
     display: none !important;
 }
 button.owl-prev::before {
-    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='#f27b0a' class='size-6'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M15.75 19.5 8.25 12l7.5-7.5' /%3E%3C/svg%3E%0A");;
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='size-6'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='m8.25 4.5 7.5 7.5-7.5 7.5' /%3E%3C/svg%3E%0A");
     position: absolute;
-    top: -2px;
+    top: 18px;
     left: 6px;
     width: 24px;
     height: 24px;
     color: #f27b0a;
-
+    rotate: 180deg;
 }
 button.owl-next::before {
-    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='#f27b0a' class='size-6'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M15.75 19.5 8.25 12l7.5-7.5' /%3E%3C/svg%3E%0A");;
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='size-6'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='m8.25 4.5 7.5 7.5-7.5 7.5' /%3E%3C/svg%3E%0A");
     position: absolute;
-    rotate: 180deg;
-    top: 18px;
+    top: -2px;
     left: 9px;
     width: 24px;
     height: 24px;
     color: #f27b0a;
-
 }
 .slider_caption span:before {
     content: url(../images/a1.png);
