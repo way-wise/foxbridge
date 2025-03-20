@@ -1,0 +1,51 @@
+ul{margin: 0px;padding: 0px;}
+
+.toggle_btn div:nth-child(3) {width: 15px;}
+.toggle_btn div:nth-child(2) {width: 20px;}
+.toggle_btn div {border-bottom: 1px solid; margin: 5px 0px;}
+.toggle_btn {width: 40px; height: 40px; background-color: #2125292e; padding: 8px !important; display: inline-block; border-radius: 5px; float: right; display: none; }
+.responsive {display: none; }
+
+.secondary_nav_1 .nav_1_clm ul.contact_detail {margin: 0px 0px 0px auto; display: table; }
+.secondary_nav_1 .nav_1_clm ul.social_icons {margin: auto 0px 0px 0px; display: table; }
+.secondary_nav_1 ul li {display: inline-block; margin: 0px 10px; }
+
+header.mutal-temp_1 ul {margin: 0px 0px 0px auto; display: table; }
+header.mutal-temp_1 ul li {display: inline-block; margin: 0px 0px 0px 20px;}
+
+header.mutal-temp_2 {text-align: center;}
+header.mutal-temp_2 .menu_bar ul {display: table; margin: 0px auto;}
+header.mutal-temp_2 .menu_bar ul li {display: inline-block; margin: 0px 0px 0px 20px;}
+
+header.mutal-temp_3 .menu_bar ul {margin: auto; display: table; }
+header.mutal-temp_3 .right_menu_bar ul {margin: 0px 0px 0px auto; display: table; }
+header.mutal-temp_3 ul li {display: inline-block; margin: 0px 5px; }
+
+
+
+@media(max-width: 800px){
+	.toggle_btn {display: block;}
+	.dis-none-800 {display: none;}
+	.mobile {display: none; }
+	.mob_width {width: 50% !important; }
+	/*header .logo {float: left; }*/
+	.responsive ul li {display: inherit !important;}
+	.responsive ul {width: 100%; left: 0; top: 40px; background-color: #d7d8d8; padding: 20px 0px;}
+	.left {padding: 15px 0px !important; }
+	.resp_hidden{display: none;}
+	ul.social_icons li {display: inline-block !important; margin: 0px 5px; }
+
+}
+.preloader h1 {font-size: 40px !important; }
+.preloader {position: fixed; inset: 0; width: 100%; height: 100%; z-index: 9999; background-repeat: no-repeat; background-color: #FFF; background-position: center; text-align: center; display: inline-grid; align-items: center; }
+.preloader .blink{opacity: 0; }
+.preloader .loader {border: 10px solid #f3f3f3; border-radius: 50%; border-top: 10px solid #f27b0a; width: 120px; height: 120px; -webkit-animation: spin 2s linear infinite; animation: spin 2s linear infinite; margin: auto; display: table; }
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
