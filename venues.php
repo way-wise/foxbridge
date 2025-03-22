@@ -97,7 +97,7 @@
       <!-- By the pond -->
       <div class="group relative bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
         <div class="aspect-w-16 aspect-h-9 relative">
-          <video class="w-full h-48 object-cover" poster="images/pond-thumbnail.jpg" controls muted playsinline>
+          <video class="w-full h-80 object-cover" controls muted playsinline>
             <source src="by-the-pond.mp4" type="video/mp4">
           </video>
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent group-hover:opacity-75 transition-opacity"></div>
@@ -115,7 +115,7 @@
       <!-- Humera Garden -->
       <div class="group relative bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
         <div class="aspect-w-16 aspect-h-9 relative">
-          <video class="w-full h-48 object-cover" poster="images/humera-thumbnail.jpg" controls muted playsinline>
+          <video class="w-full h-80 object-cover" controls muted playsinline>
             <source src="humera_garden.mp4" type="video/mp4">
           </video>
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent group-hover:opacity-75 transition-opacity"></div>
@@ -139,7 +139,7 @@
       <!-- Foxbridge Club House Garden -->
       <div class="group relative bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
         <div class="aspect-w-16 aspect-h-9 relative">
-          <video class="w-full h-48 object-cover" poster="images/foxbridge-club-house-thumbnail.jpg" controls muted playsinline>
+          <video class="w-full h-80 object-cover" controls muted playsinline>
             <source src="scarmbles_open_area.mp4" type="video/mp4">
           </video>
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent group-hover:opacity-75 transition-opacity"></div>
@@ -163,7 +163,7 @@
       <!-- Amira Garden -->
       <div class="group relative bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
         <div class="aspect-w-16 aspect-h-9 relative">
-          <video class="w-full h-48 object-cover" poster="images/amira-thumbnail.jpg" controls muted playsinline>
+          <video class="w-full h-80 object-cover" controls muted playsinline>
             <source src="amira_garden.mp4" type="video/mp4">
           </video>
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent group-hover:opacity-75 transition-opacity"></div>
@@ -187,8 +187,10 @@
       <!-- Foxbridge Golf & Country Club -->
       <div class="group relative bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
         <div class="aspect-w-16 aspect-h-9 relative">
-          <video class="w-full h-48 object-cover" poster="images/foxbridge-golf-thumbnail.jpg" controls muted playsinline>
-            <source src="movie.ogg" type="video/ogg">
+          <video class="w-full h-80 object-cover" controls muted playsinline>
+            <source src="foxbridge_club.mp4" type="video/mp4">
+            <!-- Add fallback message -->
+            Your browser does not support the video tag.
           </video>
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent group-hover:opacity-75 transition-opacity"></div>
         </div>
