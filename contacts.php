@@ -41,6 +41,7 @@
     gtag('config', 'UA-226072037-1');
   </script>
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 </head>
 
 <body>
@@ -64,31 +65,31 @@
       <div class="col-lg-9 col-md-9 col-sm-12" data-aos="fade-up">
 
         <div class="map">
-          <div class="contactus col-lg-6 col-md-6 col-sm-12 order-sm-first order-last">
-            <div class="info-wrap  w-100 p-lg-5 p-4">
+          <div class="contactus !bg-[#f27b0a] !rounded-lg col-lg-6 col-md-6 col-sm-12 order-sm-first order-last">
+            <div class="info-wrap  w-100 p-lg-5 p-4 !space-y-4">
               <!--<h4 class="mb-4 mt-md-4">4 Locations to choose from<span>3 outdoor, 1 indoor.</span></h4>-->
-              <div class="dbox w-100 d-flex align-items-baseline">
-                <div class="icon d-flex align-items-center justify-content-center">
+              <div class="dbox w-100 d-flex !items-center">
+                <div class="!text-black d-flex align-items-center justify-content-center !size-8 p-2 !bg-white !rounded-full">
                   <span class="fa fa-map-marker"></span>
                 </div>
-                <div class="text pl-3">
-                  <p> &nbsp; Address: <span>350 Reach St, <br> &nbsp;&nbsp;Uxbridge, ON L9P 0N3</span></p>
+                <div class="!text-black pl-3">
+                  <p class="!text-black !mb-0"> &nbsp; Address: <span class="!text-black">350 Reach St, <br> &nbsp;&nbsp;Uxbridge, ON L9P 0N3</span></p>
                 </div>
               </div>
-              <div class="dbox w-100 d-flex align-items-baseline">
-                <div class="icon d-flex align-items-center justify-content-center">
+              <div class="dbox w-100 d-flex !items-center">
+                <div class="!text-black d-flex align-items-center justify-content-center !size-8 p-2 !bg-white !rounded-full">
                   <span class="fa fa-phone"> </span>
                 </div>
-                <div class="text pl-3">
-                  <p> &nbsp; Phone: <a href="tel://9058527962"><span>+ (905)852-7962</span></a></p>
+                <div class="!text-black pl-3">
+                  <p class="!text-black !mb-0"> &nbsp; Phone: <a href="tel://9058527962"><span class="!text-black">+ (905)852-7962</span></a></p>
                 </div>
               </div>
-              <div class="dbox w-100 d-flex align-items-baseline">
-                <div class="icon d-flex align-items-center justify-content-center">
+              <div class="dbox w-100 d-flex !items-center">
+                <div class="!text-black d-flex align-items-center justify-content-center !size-8 p-2 !bg-white !rounded-full">
                   <span class="fa fa-paper-plane"></span>
                 </div>
-                <div class="text pl-3">
-                  <p> &nbsp; Email: <a href="mailto:management@foxbridge.ca"><span>management@foxbridge.ca</span></a>
+                <div class="!text-black pl-3">
+                  <p class="!text-black !mb-0"> &nbsp; Email: <a href="mailto:management@foxbridge.ca"><span class="!text-black">management@foxbridge.ca</span></a>
                   </p>
                 </div>
               </div>
@@ -109,132 +110,72 @@
     </div>
 
     <div class="col-lg-12 col-sm-12" data-aos="fade-up">
-      <div class="jobCard contactcard">
-        <h2 class="contacttitle">Management</h2>
-        <div class="row">
-
-          <div class="col-lg-6 col-md-6 borderright">
-
-
-            <div class="info-wrap  p-lg-4 p-0">
-
-              <div class="text p-4">
-                <h3>Nadeem Qureshi</h3>
-                <div class="jobSubTitleTitle">CEO</div>
+      <div class="py-12">
+        <h2 class="text-4xl !font-semibold text-gray-800 text-center !mb-12">Management</h2>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          
+          <!-- Nadeem Card -->
+          <div class="bg-white rounded-lg shadow-sm !bg-orange-50 !border border-[#f27b0a] hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-8 relative">
+            <h3 class="text-2xl font-bold text-gray-800 mb-2">Nadeem Qureshi</h3>
+            <div class="text-orange-500 font-semibold uppercase tracking-wider text-sm mb-6">CEO</div>
+            
+            <div class="flex items-center mb-3 group">
+              <div class="w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center mr-4 group-hover:bg-orange-500 transition-colors duration-300">
+                <span class="fa fa-phone text-orange-500 group-hover:text-white transition-colors duration-300"></span>
               </div>
-              <div class="dbox w-100 d-flex align-items-baseline">
-                <div class="icon d-flex align-items-center justify-content-center">
-                  <span class="fa fa-phone"> </span>
-                </div>
-                <div class="text pl-3">
-                  <p> &nbsp; Phone: <a href="tel://905-8527962"><span>1-905-852 7962</span></a></p>
-                </div>
+              <a href="tel:1-905-852 7962" class="text-gray-600 !font-semibold hover:text-orange-500 transition-colors duration-300">1-905-852 7962</a>
+            </div>
+            
+            <div class="flex items-center group">
+              <div class="w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center mr-4 group-hover:bg-orange-500 transition-colors duration-300">
+                <span class="fa fa-paper-plane text-orange-500 group-hover:text-white transition-colors duration-300"></span>
               </div>
-              <div class="dbox w-100 d-flex align-items-baseline">
-                <div class="icon d-flex align-items-center justify-content-center">
-                  <span class="fa fa-paper-plane"></span>
-                </div>
-                <div class="text pl-3">
-                  <p> &nbsp; Email: <a href="mailto:nadeem@foxbridge.ca"><span>nadeem@foxbridge.ca</span></a></p>
-                </div>
-              </div>
-
+              <a href="mailto:nadeem@foxbridge.ca" class="text-gray-600 !font-semibold hover:text-orange-500 transition-colors duration-300">nadeem@foxbridge.ca</a>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6">
-
-
-            <div class="info-wrap   p-lg-4 p-0">
-
-              <div class="text p-4">
-                <h3>Bremani</h3>
-                <div class="jobSubTitleTitle">Director of Operations</div>
+          
+          <!-- Bremani Card -->
+          <div class="bg-white rounded-lg shadow-sm !bg-orange-50 !border border-[#f27b0a] hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-8 relative">
+            <h3 class="text-2xl font-bold text-gray-800 mb-2">Bremani</h3>
+            <div class="text-orange-500 font-semibold uppercase tracking-wider text-sm mb-6">Director of Operations</div>
+            
+            <div class="flex items-center mb-3 group">
+              <div class="w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center mr-4 group-hover:bg-orange-500 transition-colors duration-300">
+                <span class="fa fa-phone text-orange-500 group-hover:text-white transition-colors duration-300"></span>
               </div>
-              <div class="dbox w-100 d-flex align-items-baseline">
-                <div class="icon d-flex align-items-center justify-content-center">
-                  <span class="fa fa-phone"> </span>
-                </div>
-                <div class="text pl-3">
-                  <p> &nbsp; Phone: <a href="tel://416-509 7647"><span> 416-509 7647</span></a></p>
-                </div>
-              </div>
-              <div class="dbox w-100 d-flex align-items-baseline">
-                <div class="icon d-flex align-items-center justify-content-center">
-                  <span class="fa fa-paper-plane"></span>
-                </div>
-                <div class="text pl-3">
-                  <p> &nbsp; Email: <a href="mailto:bremani@foxbridge.ca"><span>bremani@foxbridge.ca</span></a></p>
-                </div>
-              </div>
+              <a href="tel:416-509 7647" class="text-gray-600 !font-semibold hover:text-orange-500 transition-colors duration-300">416-509 7647</a>
             </div>
-
+            
+            <div class="flex items-center group">
+              <div class="w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center mr-4 group-hover:bg-orange-500 transition-colors duration-300">
+                <span class="fa fa-paper-plane text-orange-500 group-hover:text-white transition-colors duration-300"></span>
+              </div>
+              <a href="mailto:bremani@foxbridge.ca" class="text-gray-600 !font-semibold hover:text-orange-500 transition-colors duration-300">bremani@foxbridge.ca</a>
+            </div>
           </div>
+          
+          <!-- Jonathan Card -->
+          <div class="bg-white rounded-lg shadow-sm !bg-orange-50 !border border-[#f27b0a] hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-8 relative">
+            <h3 class="text-2xl font-bold text-gray-800 mb-2">Jonathan Fletcher</h3>
+            <div class="text-orange-500 font-semibold uppercase tracking-wider text-sm mb-6">Proshop Administrator</div>
+            
+            <div class="flex items-center mb-3 group">
+              <div class="w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center mr-4 group-hover:bg-orange-500 transition-colors duration-300">
+                <span class="fa fa-phone text-orange-500 group-hover:text-white transition-colors duration-300"></span>
+              </div>
+              <a href="tel:1-905-852 7962" class="text-gray-600 !font-semibold hover:text-orange-500 transition-colors duration-300">1-905-852 7962</a>
+            </div>
+            
+            <div class="flex items-center group">
+              <div class="w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center mr-4 group-hover:bg-orange-500 transition-colors duration-300">
+                <span class="fa fa-paper-plane text-orange-500 group-hover:text-white transition-colors duration-300"></span>
+              </div>
+              <a href="mailto:turfs@foxbridge.ca" class="text-gray-600 !font-semibold hover:text-orange-500 transition-colors duration-300">turfs@foxbridge.ca</a>
+            </div>
+          </div>
+          
         </div>
       </div>
-      <div class="col-lg-12 col-sm-12" data-aos="fade-up">
-        <div class="jobCard contactcard">
-
-          <div class="row">
-
-            <div class="col-lg-6 col-md-6 borderright">
-
-
-              <div class="info-wrap  p-lg-4 p-0">
-
-                <div class="text p-4">
-                  <h3>Jonathan Fletcher</h3>
-                  <div class="jobSubTitleTitle">Proshop Adminstrator</div>
-                </div>
-                <div class="dbox w-100 d-flex align-items-baseline">
-                  <div class="icon d-flex align-items-center justify-content-center">
-                    <span class="fa fa-phone"> </span>
-                  </div>
-                  <div class="text pl-3">
-                    <p> &nbsp; Phone: <a href="tel://905-8527962"><span>1-905-852 7962</span></a></p>
-                  </div>
-                </div>
-                <div class="dbox w-100 d-flex align-items-baseline">
-                  <div class="icon d-flex align-items-center justify-content-center">
-                    <span class="fa fa-paper-plane"></span>
-                  </div>
-                  <div class="text pl-3">
-                    <p> &nbsp; Email: <a href="mailto:turfs@foxbridge.ca"><span>turfs@foxbridge.ca</span></a></p>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-            <!--             <div class="col-lg-6 col-md-6">
-              
-                
-<div class="info-wrap   p-lg-4 p-0">
-
-<div class="text p-4">
-<h3>Jonathan</h3>
-<div class="jobSubTitleTitle">Owner</div>
-</div>
-<div class="dbox w-100 d-flex align-items-baseline">
-<div class="icon d-flex align-items-center justify-content-center">
-<span class="fa fa-phone"> </span>
-</div>
-<div class="text pl-3">
-<p> &nbsp; Phone: <a href="tel://905-8527962"><span>1-905-852 7962</span></a></p>
-</div>
-</div>
-<div class="dbox w-100 d-flex align-items-baseline">
-<div class="icon d-flex align-items-center justify-content-center">
-<span class="fa fa-paper-plane"></span>
-</div>
-<div class="text pl-3">
-<p> &nbsp; Email: <a href="mailto:nadeem@foxbridge.ca"><span>nadeem@foxbridge.ca</span></a></p>
-</div>
-</div>
-</div>   -->
-
-          </div>
-        </div>
-      </div>
-
     </div>
 
   </div>
@@ -278,9 +219,9 @@
 
 
       ?>
-      <h2>Contact us</h2>
+      <h2 class="text-4xl !font-semibold text-gray-800 text-center !mb-8">Contact us</h2>
       <div class="col-lg-12 col-sm-12" data-aos="zoom-in" data-aos-delay="200">
-        <div class="formsubmit">
+        <div class="formsubmit !bg-gray-100 !rounded-lg">
           <form class="row g-3 needs-validation" method="post" enctype="multipart/form-data" action="process.php">
             <div class="col-md-6">
               <label for="validationCustom01" class="form-label">First Name <span class="text-danger">* </span>
@@ -391,4 +332,5 @@
 
 </body>
 
+</html>
 </html>
