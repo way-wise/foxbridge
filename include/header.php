@@ -44,7 +44,7 @@
       <ul class="dropdown">
          <li> <a href="venues.php" class="nav-link">Event space </a></li> 
           
-           <li> <a href="social-events.php" class="nav-link">Weddings & Events</a></li>        
+           <li> <a href="events.php" class="nav-link">Weddings & Events</a></li>        
          <!--<li> <a href="vendors.php" class="nav-link">Vendor list </a></li> -->
          <li> <a href="gallery.php" class="nav-link">Gallery </a></li> 
          <li> <a href="packages.php" class="nav-link">Packages</a></li>
@@ -109,7 +109,7 @@
      <li class="list"><a href="javascript:void();">Events</a> 
       <ul class="items">
           <li> <a href="venues.php">Event space </a></li> 
-          <li> <a href="social-events.php">Weddings & Events</a></li>   
+          <li> <a href="events.php">Weddings & Events</a></li>   
           <li> <a href="gallery.php" class="nav-link">Gallery </a></li>
           <li> <a href="packages.php" class="nav-link">Packages</a></li>
           <li> <a href="upcoming-events.php" class="nav-link">Upcoming Events</a></li>
