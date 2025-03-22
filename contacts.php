@@ -221,7 +221,7 @@
       ?>
       <h2 class="text-4xl !font-semibold text-gray-800 text-center !mb-8">Contact us</h2>
       <div class="col-lg-12 col-sm-12" data-aos="zoom-in" data-aos-delay="200">
-        <div class="formsubmit !bg-gray-100 !rounded-lg !p-10">
+        <div class="formsubmit !bg-gray-100 !rounded-lg !p-20">
           <form class="row g-3 needs-validation" method="post" enctype="multipart/form-data" action="process.php">
             <div class="col-md-6">
               <label for="validationCustom01" class="form-label">First Name <span class="text-danger">* </span>
