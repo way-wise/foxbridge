@@ -2959,12 +2959,11 @@ ul.datesdescription-list li{padding:5px 8px;}
     margin: 5px  5px;
     padding: 5px 5px;
     float: left;
-    text-align: center;
     color: #FFF;
     position: relative;
     border-radius: 16px;
     padding: 35px 25px;
-    text-align: center;
+    text-align: start;
     -webkit-backdrop-filter: blur(3px);
     backdrop-filter: blur(3px);
     background: linear-gradient(180deg,rgba(255,255,255,0.2),rgba(255,255,255,0));
