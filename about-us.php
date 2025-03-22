@@ -80,18 +80,18 @@
         <div class="col-lg-6 content" data-aos="slide-right">
           <h2 class="mb-3 mb-lg-1">Welcome to Foxbridge Golf & Country Club in Uxbridge!</h2>
           <span class="fancy-border" data-aos="flip-left" data-aos-duration="3000"></span>
-          <p class="mb-3 mb-lg-3">At Foxbridge Golf & Country Club, we are committed to providing a world-class golfing
+          <p class="my-3 mb-lg-3 !text-gray-600 !font-normal">At Foxbridge Golf & Country Club, we are committed to providing a world-class golfing
             and leisure experience in the heart of Uxbridge, Ontario. Our lush and meticulously maintained 18-hole golf
             course, coupled with our luxurious amenities, is designed to cater to golf enthusiasts of all skill levels,
             making us a premier destination for both casual golfers and seasoned professionals</p>
 
-          <p class="mb-3 mb-lg-3">Our 18-hole golf course is nestled within 180 acres of pristine natural beauty. Our
+          <p class="mb-3 mb-lg-3 !text-gray-600 !font-normal">Our 18-hole golf course is nestled within 180 acres of pristine natural beauty. Our
             course offers a unique blend of traditional and modern features that provide an enjoyable and challenging
             round of golf. Rolling fairways, strategically placed bunkers, and immaculate greens are just a few of the
             elements that make Foxbridge a golfer's paradise. Currently our Driving Range is closed, but we have a
             putting green to fine-tune your skills.</p>
 
-          <p class="mb-3 mb-lg-2">At Foxbridge Golf & Country Club, we are passionate about golf, hospitality, and
+          <p class="mb-3 mb-lg-2 !text-gray-600 !font-normal">At Foxbridge Golf & Country Club, we are passionate about golf, hospitality, and
             community. Whether you're a seasoned golfer, a beginner, or simply looking for a beautiful venue for an
             event, we welcome you to experience the warmth and excellence that define us. Come join us on the fairways
             and experience the Foxbridge difference. We look forward to making your visit a memorable one!</p>
@@ -359,29 +359,29 @@
 
 
         </div>
-        <div class="col-lg-7">
-          <div class="content p-3">
+        <div class="col-lg-7 lg:!pl-20">
+          <div class="content !mb-4">
             <h2 data-aos="fade-down" class="aos-init aos-animate">Investors & Stakeholders</h2>
             <!--<div class="leaguetimming"><span class="text-uppercase">Owner</span></div> -->
             <span class="fancy-border aos-init aos-animate" data-aos="flip-left" data-aos-duration="3000"></span>
 
           </div>
 
-          <p>Foxbridge Golf & Country Club has undergone quite the transformation since being acquired by its investors
+          <p class="!text-gray-600 !font-normal">Foxbridge Golf & Country Club has undergone quite the transformation since being acquired by its investors
             in 2021. Improvements are: paving the parking lot, upgrading the clubhouse, developing outdoor event
             gardens, and constructing a maintenance shed are significant upgrades that can enhance the overall
             experience for members and visitors.</p>
 
-          <p>Investing in the infrastructure and amenities of the club demonstrates a commitment to providing a
+          <p class="!text-gray-600 !font-normal">Investing in the infrastructure and amenities of the club demonstrates a commitment to providing a
             high-quality experience for golfers and ensuring the long-term success of the club. Upgrading the golf cart
             fleet and investing in new machinery for maintaining the greens further indicates a dedication to the upkeep
             and quality of the course itself.</p>
 
-          <p>These improvements not only enhance the aesthetics and functionality of the Golf club but also contribute
+          <p class="!text-gray-600 !font-normal">These improvements not only enhance the aesthetics and functionality of the Golf club but also contribute
             to creating a more enjoyable and attractive destination for golf enthusiasts. It's great to see Foxbridge
             Golf Club thriving under new ownership and continuing to evolve and grow.</p>
 
-          <p>Foxbridge Golf Club is owned by Investors & Stakeholders</p>
+          <p class="!text-gray-600 !font-normal">Foxbridge Golf Club is owned by Investors & Stakeholders</p>
 
 
         </div>
