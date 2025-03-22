@@ -44,7 +44,7 @@
 
 </head>
 
-<body>
+<body class="!bg-gray-50">
   <?php echo implode('', file('include/header.php')); ?>
 
   <div class="contactbanner !bg-no-repeat !bg-cover !bg-center min-h-[350px] relative" style="background-image: url('images/contact-hero.jpg');">
@@ -56,9 +56,9 @@
   <div class="container px-4 mt-5 inner">
     <div class="row">
       <div class="col-lg-12 contactdescrp text-center">
-        <h3>Get in touch</h3>
+        <h3 class="!text-4xl !font-semibold !text-gray-800 !text-center">Get in touch</h3>
         <span class="fancy-border" data-aos="flip-left" data-aos-duration="3000"></span>
-        <p class="w-full max-w-[720px] mx-auto">Foxbridge Golf Club Pro's are available in business hours to answer any questions you might have about club
+        <p class="w-full max-w-[720px] !font-normal mx-auto !text-gray-500 !mt-4 !mb-16">Foxbridge Golf Club Pro's are available in business hours to answer any questions you might have about club
           facilities, your Booking options, Venue, Our Simulators, Memberships and any other related queries. We can
           assist you in making the best choices that will cater your requirments.</p>
       </div>
@@ -69,27 +69,27 @@
             <div class="info-wrap  w-100 p-lg-5 p-4 !space-y-4">
               <!--<h4 class="mb-4 mt-md-4">4 Locations to choose from<span>3 outdoor, 1 indoor.</span></h4>-->
               <div class="dbox w-100 d-flex !items-center">
-                <div class="!text-black d-flex align-items-center justify-content-center !size-8 p-2 !bg-white !rounded-full">
+                <div class="!text-[#f27b0a]  d-flex align-items-center justify-content-center !size-8 p-2 !bg-white !rounded-full">
                   <span class="fa fa-map-marker"></span>
                 </div>
                 <div class="!text-black pl-3">
-                  <p class="!text-black !mb-0"> &nbsp; Address: <span class="!text-black">350 Reach St, <br> &nbsp;&nbsp;Uxbridge, ON L9P 0N3</span></p>
+                  <p class="!text-white !mb-0"> &nbsp; Address: <span class="!text-white">350 Reach St, <br> &nbsp;&nbsp;Uxbridge, ON L9P 0N3</span></p>
                 </div>
               </div>
               <div class="dbox w-100 d-flex !items-center">
-                <div class="!text-black d-flex align-items-center justify-content-center !size-8 p-2 !bg-white !rounded-full">
+                <div class="!text-[#f27b0a]  d-flex align-items-center justify-content-center !size-8 p-2 !bg-white !rounded-full">
                   <span class="fa fa-phone"> </span>
                 </div>
                 <div class="!text-black pl-3">
-                  <p class="!text-black !mb-0"> &nbsp; Phone: <a href="tel://9058527962"><span class="!text-black">+ (905)852-7962</span></a></p>
+                  <p class="!text-white !mb-0"> &nbsp; Phone: <a href="tel://9058527962"><span class="!text-white">+ (905)852-7962</span></a></p>
                 </div>
               </div>
               <div class="dbox w-100 d-flex !items-center">
-                <div class="!text-black d-flex align-items-center justify-content-center !size-8 p-2 !bg-white !rounded-full">
+                <div class="!text-[#f27b0a]  d-flex align-items-center justify-content-center !size-8 p-2 !bg-white !rounded-full">
                   <span class="fa fa-paper-plane"></span>
                 </div>
                 <div class="!text-black pl-3">
-                  <p class="!text-black !mb-0"> &nbsp; Email: <a href="mailto:management@foxbridge.ca"><span class="!text-black">management@foxbridge.ca</span></a>
+                  <p class="!text-white !mb-0"> &nbsp; Email: <a href="mailto:management@foxbridge.ca"><span class="!text-white">management@foxbridge.ca</span></a>
                   </p>
                 </div>
               </div>
@@ -115,7 +115,7 @@
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
           
           <!-- Nadeem Card -->
-          <div class="bg-white rounded-lg shadow-sm !bg-orange-50 !border border-[#f27b0a] hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-8 relative">
+          <div class="bg-white rounded-lg shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-8 relative">
             <h3 class="text-2xl font-bold text-gray-800 mb-2">Nadeem Qureshi</h3>
             <div class="text-orange-500 font-semibold uppercase tracking-wider text-sm mb-6">CEO</div>
             
@@ -135,7 +135,7 @@
           </div>
           
           <!-- Bremani Card -->
-          <div class="bg-white rounded-lg shadow-sm !bg-orange-50 !border border-[#f27b0a] hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-8 relative">
+          <div class="bg-white rounded-lg shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-8 relative">
             <h3 class="text-2xl font-bold text-gray-800 mb-2">Bremani</h3>
             <div class="text-orange-500 font-semibold uppercase tracking-wider text-sm mb-6">Director of Operations</div>
             
@@ -155,7 +155,7 @@
           </div>
           
           <!-- Jonathan Card -->
-          <div class="bg-white rounded-lg shadow-sm !bg-orange-50 !border border-[#f27b0a] hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-8 relative">
+          <div class="bg-white rounded-lg shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-8 relative">
             <h3 class="text-2xl font-bold text-gray-800 mb-2">Jonathan Fletcher</h3>
             <div class="text-orange-500 font-semibold uppercase tracking-wider text-sm mb-6">Proshop Administrator</div>
             
@@ -221,7 +221,7 @@
       ?>
       <h2 class="text-4xl !font-semibold text-gray-800 text-center !mb-8">Contact us</h2>
       <div class="col-lg-12 col-sm-12" data-aos="zoom-in" data-aos-delay="200">
-        <div class="formsubmit !bg-gray-100 !rounded-lg">
+        <div class="formsubmit !bg-gray-100 !rounded-lg !p-10">
           <form class="row g-3 needs-validation" method="post" enctype="multipart/form-data" action="process.php">
             <div class="col-md-6">
               <label for="validationCustom01" class="form-label">First Name <span class="text-danger">* </span>
