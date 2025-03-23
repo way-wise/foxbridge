@@ -218,7 +218,7 @@
   </div>
 
   <!--START Desktop View TEE TIME Search-->
-  <div class="bookTeaTime" id="navbar">
+  <!-- <div class="bookTeaTime" id="navbar">
     <div class="container-fluid">
       <div class="innerbookTeaTime">
         <div class="row row-cols-5">
@@ -282,12 +282,8 @@
         </div>
 
       </div>
-
-
     </div>
-
-
-  </div>
+  </div> -->
   <!--END Desktop View TEE TIME Search-->
 
   <!-- <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -349,20 +345,82 @@
 
 
   <div>
-    <div class="video-background-holder">
+    <div class="video-background-holder relative">
       <div class="video-background-overlay"></div>
       <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
         <source src="videos/intro.mp4" type="video/mp4">
       </video>
       <div class="video-background-content container h-100">
-        <div class="d-flex h-100 text-center align-items-center">
-          <div class="w-100 text-white">
-            <p>Golf, Tournaments, Leagues, Restaurant & Bar</p>
-            <h1 class="display-4">Welcome to <br> Foxbridge Golf Club</h1>
-            <p class="lead mb-0">Experience Golf at its Finest</p>
+        <div class="flex h-100 text-center justify-center items-center">
+          <div class="w-full">
+            <div class="w-100 text-white">
+              <span class="text-sm bg-white backdrop-blur px-4 py-2 rounded-full text-black inline-block !mb-3">Golf, Tournaments, Leagues, Restaurant & Bar</span>
+              <h1 class="display-4">Welcome to <br> Foxbridge Golf Club</h1>
+              <p class="lead mb-0">Experience Golf at its Finest</p>
+            </div>
+            <div class="innerbookTeaTime w-full !mt-8">
+              <div class="row row-cols-5">
+                <div class="col border-right">
+                  <div class="selectLocation commondropdown">
+                    <label for="floatingSelect"><i class="fa fa-map-marker" aria-hidden="true"></i> Location</label>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="locationValue">Foxbridge Golf Club</div>
+                      <div class="border-left courseimage" data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="Click to View the Courses">
+                        <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#courses">
+                          <img src="images/golf-course.png" width="30" height="30"></a>
+                      </div>
+                    </div>
+                    <div style="clear:both"></div>
+
+                  </div>
+                </div>
+                <div class="col border-right">
+                  <div class="selectDate commondropdown">
+                    <label for="Date"><i class="fa fa-calendar" aria-hidden="true"></i> Date</label>
+                    <div class="input-group date">
+                      <input type="text" id="tee-date" class="form-control tee-date" readonly value="YYYY-MM-DD"
+                        placeholder="YYYY-MM-DD"><span class="input-group-addon"><i
+                          class="fa fa-calendar-o calenderstyle"></i></span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col border-right">
+                  <div class="commondropdown">
+                    <label for="tee-players"><i class="fa fa-user" aria-hidden="true"></i> Players</label>
+                    <select class="form-select tee-players" id="tee-players" aria-label="tee-players">
+                      <option value="">Select Players</option>
+                      <option value="1">1 Player</option>
+                      <option value="2">2 Player</option>
+                      <option value="3">3 Player</option>
+                      <option value="4">4 Player</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="col border-right">
+                  <div class="commondropdown">
+                    <label for="tee-holes"><i class="fa fa-flag" aria-hidden="true"></i> Holes</label>
+                    <select class="form-select tee-holes" id="tee-holes" aria-label="tee-holes">
+                      <option value="">Select Holes</option>
+                      <option value="9">9 - holes</option>
+
+                      <option value="18">18 - holes</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col d-flex align-items-center justify-content-center">
+                  <a class="tee-search" style="cursor: pointer;"> <span class="pe-2"><i class="fa fa-search"
+                        aria-hidden="true"></i></span> Search </a>
+                </div>
+              </div>
+
+            </div>
           </div>
         </div>
       </div>
+      <img src="svgs/hero-bottom-shape.svg" alt="" class="absolute z-50 -bottom-1 left-0 w-full h-full max-h-[162px]">
     </div>
 
     <style>
@@ -429,7 +487,8 @@
           <div class="welcome_clm rounded-2xl overflow-hidden relative" data-aos="fade-up" data-aos-delay="300">
             <a href="membership.html">
               <img src="images/s1.png" class="w-full h-full object-cover">
-              <div class="absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full bg-[#f27b0a]/50">
+              <div
+                class="absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full bg-[#f27b0a]/50">
                 <span class="-rotate-135">&#8595;</span>
                 <h3>Tournaments</h3>
               </div>
@@ -440,7 +499,8 @@
           <div class="welcome_clm rounded-2xl overflow-hidden relative" data-aos="fade-up" data-aos-delay="400">
             <a href="venues.html">
               <img src="images/s2.png" class="w-full h-full object-cover">
-              <div class="absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full bg-[#f27b0a]/50">
+              <div
+                class="absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full bg-[#f27b0a]/50">
                 <span class="-rotate-135">&#8595;</span>
                 <h3>Venues & Weddings</h3>
               </div>
@@ -451,7 +511,8 @@
           <div class="welcome_clm rounded-2xl overflow-hidden relative" data-aos="fade-up" data-aos-delay="500">
             <a href="javascript:void(0);">
               <img src="images/s3.png" class="w-full h-full object-cover">
-              <div class="absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full bg-[#f27b0a]/50">
+              <div
+                class="absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full bg-[#f27b0a]/50">
                 <span class="-rotate-135">&#8595;</span>
                 <h3>Grab and go menu</h3>
               </div>
@@ -462,7 +523,8 @@
           <div class="welcome_clm rounded-2xl overflow-hidden relative" data-aos="fade-up" data-aos-delay="600">
             <a href="simulators.html">
               <img src="images/s4.png" class="w-full h-full object-cover">
-              <div class="absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full bg-[#f27b0a]/50">
+              <div
+                class="absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full bg-[#f27b0a]/50">
                 <span class="-rotate-135">&#8595;</span>
                 <h3>Golf Simulators</h3>
               </div>
@@ -561,7 +623,8 @@
         <div class="row">
           <div class="col-lg-6 col-md-12 mb-5">
             <div class="txt_icon  items-start" data-aos="zoom-in" data-aos-delay="200">
-              <div class="img_iocn min-w-20 size-20 bg-white p-2 rounded-full overflow-hidden inline-flex items-center justify-center">
+              <div
+                class="img_iocn min-w-20 size-20 bg-white p-2 rounded-full overflow-hidden inline-flex items-center justify-center">
                 <img src="images/i1.png">
               </div>
               <div class="txt_box">
@@ -573,7 +636,8 @@
           </div>
           <div class="col-lg-6 col-md-12 mb-5">
             <div class="txt_icon items-start" data-aos="zoom-in" data-aos-delay="400">
-              <div class="img_iocn min-w-20 size-20 bg-white p-2 rounded-full overflow-hidden inline-flex items-center justify-center">
+              <div
+                class="img_iocn min-w-20 size-20 bg-white p-2 rounded-full overflow-hidden inline-flex items-center justify-center">
                 <img src="images/i2.png">
               </div>
               <div class="txt_box">
@@ -587,7 +651,8 @@
         <div class="row">
           <div class="col-lg-6 col-md-12 mb-lg-0 mb-md-5 mb-sm-5">
             <div class="txt_icon items-start" data-aos="zoom-in" data-aos-delay="500">
-              <div class="img_iocn min-w-20 size-20 bg-white p-2 rounded-full overflow-hidden inline-flex items-center justify-center">
+              <div
+                class="img_iocn min-w-20 size-20 bg-white p-2 rounded-full overflow-hidden inline-flex items-center justify-center">
                 <img src="images/9hole.png">
               </div>
               <div class="txt_box">
@@ -599,7 +664,8 @@
           </div>
           <div class="col-lg-6 col-md-12 ">
             <div class="txt_icon items-start" data-aos="zoom-in" data-aos-delay="600">
-              <div class="img_iocn min-w-20 size-20 bg-white p-2 rounded-full overflow-hidden inline-flex items-center justify-center">
+              <div
+                class="img_iocn min-w-20 size-20 bg-white p-2 rounded-full overflow-hidden inline-flex items-center justify-center">
                 <img src="images/i4.png">
               </div>
               <div class="txt_box">

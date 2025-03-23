@@ -13,7 +13,6 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="css/mutual-temp.css">
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
@@ -22,7 +21,7 @@
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="owl/css/owl.carousel.css">
-
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <script src="js/jquery.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
@@ -59,6 +58,11 @@
   <!-- End Google Tag Manager (noscript) -->
   <?php echo implode('', file('include/header.php')); ?>
 
+  <!-- <div class="contactbanner">
+    <div class="container">
+      <h2 class="meberTilte">Foxbridge Golf Club - Est in 1958</h2>
+    </div>
+  </div> -->
   <div class="contactbanner !bg-no-repeat !bg-cover !bg-center min-h-[350px] relative"
     style="background-image: url('images/contact-hero.jpg');">
     <div class="absolute inset-0 bg-black/50"></div>
@@ -76,18 +80,18 @@
         <div class="col-lg-6 content" data-aos="slide-right">
           <h2 class="mb-3 mb-lg-1">Welcome to Foxbridge Golf & Country Club in Uxbridge!</h2>
           <span class="fancy-border" data-aos="flip-left" data-aos-duration="3000"></span>
-          <p class="mb-3 mb-lg-3">At Foxbridge Golf & Country Club, we are committed to providing a world-class golfing
+          <p class="my-3 mb-lg-3 !text-gray-600 !font-normal">At Foxbridge Golf & Country Club, we are committed to providing a world-class golfing
             and leisure experience in the heart of Uxbridge, Ontario. Our lush and meticulously maintained 18-hole golf
             course, coupled with our luxurious amenities, is designed to cater to golf enthusiasts of all skill levels,
             making us a premier destination for both casual golfers and seasoned professionals</p>
 
-          <p class="mb-3 mb-lg-3">Our 18-hole golf course is nestled within 180 acres of pristine natural beauty. Our
+          <p class="mb-3 mb-lg-3 !text-gray-600 !font-normal">Our 18-hole golf course is nestled within 180 acres of pristine natural beauty. Our
             course offers a unique blend of traditional and modern features that provide an enjoyable and challenging
             round of golf. Rolling fairways, strategically placed bunkers, and immaculate greens are just a few of the
             elements that make Foxbridge a golfer's paradise. Currently our Driving Range is closed, but we have a
             putting green to fine-tune your skills.</p>
 
-          <p class="mb-3 mb-lg-2">At Foxbridge Golf & Country Club, we are passionate about golf, hospitality, and
+          <p class="mb-3 mb-lg-2 !text-gray-600 !font-normal">At Foxbridge Golf & Country Club, we are passionate about golf, hospitality, and
             community. Whether you're a seasoned golfer, a beginner, or simply looking for a beautiful venue for an
             event, we welcome you to experience the warmth and excellence that define us. Come join us on the fairways
             and experience the Foxbridge difference. We look forward to making your visit a memorable one!</p>
@@ -355,29 +359,29 @@
 
 
         </div>
-        <div class="col-lg-7">
-          <div class="content p-3">
+        <div class="col-lg-7 lg:!pl-20">
+          <div class="content !mb-4">
             <h2 data-aos="fade-down" class="aos-init aos-animate">Investors & Stakeholders</h2>
             <!--<div class="leaguetimming"><span class="text-uppercase">Owner</span></div> -->
             <span class="fancy-border aos-init aos-animate" data-aos="flip-left" data-aos-duration="3000"></span>
 
           </div>
 
-          <p>Foxbridge Golf & Country Club has undergone quite the transformation since being acquired by its investors
+          <p class="!text-gray-600 !font-normal">Foxbridge Golf & Country Club has undergone quite the transformation since being acquired by its investors
             in 2021. Improvements are: paving the parking lot, upgrading the clubhouse, developing outdoor event
             gardens, and constructing a maintenance shed are significant upgrades that can enhance the overall
             experience for members and visitors.</p>
 
-          <p>Investing in the infrastructure and amenities of the club demonstrates a commitment to providing a
+          <p class="!text-gray-600 !font-normal">Investing in the infrastructure and amenities of the club demonstrates a commitment to providing a
             high-quality experience for golfers and ensuring the long-term success of the club. Upgrading the golf cart
             fleet and investing in new machinery for maintaining the greens further indicates a dedication to the upkeep
             and quality of the course itself.</p>
 
-          <p>These improvements not only enhance the aesthetics and functionality of the Golf club but also contribute
+          <p class="!text-gray-600 !font-normal">These improvements not only enhance the aesthetics and functionality of the Golf club but also contribute
             to creating a more enjoyable and attractive destination for golf enthusiasts. It's great to see Foxbridge
             Golf Club thriving under new ownership and continuing to evolve and grow.</p>
 
-          <p>Foxbridge Golf Club is owned by Investors & Stakeholders</p>
+          <p class="!text-gray-600 !font-normal">Foxbridge Golf Club is owned by Investors & Stakeholders</p>
 
 
         </div>
@@ -385,20 +389,6 @@
     </div>
     </div>
   </section>
-
-  <div class="fl-module fl-module-video fl-node-nswe7imkavz1" data-node="nswe7imkavz1">
-    <div class="fl-module-content fl-node-content">
-
-      <div class="fl-video fl-embed-video">
-        <iframe loading="lazy" width="460" height="315"
-          src="https://www.youtube.com/embed/hO4uhm1rcNE?si=CtryO2lA-w-_sPto" title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      </div>
-    </div>
-  </div>
-  </div>
 
 
 
@@ -417,22 +407,23 @@
       <!-- Start count -->
       <div id="counter-section-container">
 
-        <div id="counter-box-container">
+        <div class="!grid !grid-cols-4 !gap-4" id="counter-box-container">
 
-          <div id="counter-box">
-            <h3>Active Members</h3><span class="counter" data-number="150"></span> +
+          <div class="bg-white/10 p-4 rounded-lg border-b border-l border-[#17b38440] text-white !text-start">
+            <span class="counter" data-number="150"></span> +
+            <h3>Active Members</h3>
           </div>
-
-          <div id="counter-box">
-            <h3>Acres</h3><span class="counter" data-number="200"></span>
+          <div class="bg-white/10 p-4 rounded-lg border-b border-l border-[#17b38440] text-white !text-start">
+            <span class="counter" data-number="200"></span> +
+            <h3>Acres</h3>
           </div>
-
-          <div id="counter-box">
-            <h3>Holes</h3><span class="counter" data-number="18"></span>
+          <div class="bg-white/10 p-4 rounded-lg border-b border-l border-[#17b38440] text-white !text-start">
+            <span class="counter" data-number="18"></span> +
+            <h3>Holes</h3>
           </div>
-
-          <div id="counter-box">
-            <h3>Years of Experience</h3><span class="counter" data-number="67"></span> +
+          <div class="bg-white/10 p-4 rounded-lg border-b border-l border-[#17b38440] text-white !text-start">
+            <span class="counter" data-number="63"></span> +
+            <h3>Years of Experience</h3>
           </div>
 
         </div>
