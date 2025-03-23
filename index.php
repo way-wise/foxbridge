@@ -354,7 +354,8 @@
         <div class="flex h-100 text-center justify-center items-center">
           <div class="w-full">
             <div class="w-100 text-white">
-              <span class="text-sm bg-white backdrop-blur px-4 py-2 rounded-full text-black inline-block !mb-3">Golf, Tournaments, Leagues, Restaurant & Bar</span>
+              <span class="text-sm bg-white backdrop-blur px-4 py-2 rounded-full text-black inline-block !mb-3">Golf,
+                Tournaments, Leagues, Restaurant & Bar</span>
               <h1 class="display-4">Welcome to <br> Foxbridge Golf Club</h1>
               <p class="lead mb-0">Experience Golf at its Finest</p>
             </div>
@@ -538,7 +539,8 @@
             data-aos="fade-right" data-aos-delay="900">Golf</span> <span data-aos="fade-right"
             data-aos-delay="1200">Club</span></h2>
         <span class="fancy-border" data-aos="flip-left" data-aos-duration="3000"></span>
-        <p>Foxbridge Golf Course is located on the edge of Uxbridge only an hour NE from downtown Toronto. It features
+        <p class="max-w-[820px] mx-auto !text-gray-600 !mt-4 !mb-12">Foxbridge Golf Course is located on the edge of
+          Uxbridge only an hour NE from downtown Toronto. It features
           rolling terrain, sandy soil, tight fairways, mature trees and well-manicured greens. Foxbridge has seen
           numerous improvements over the past decade, including several rebuilt holes and a gorgeous new clubhouse. The
           front and back nines are connected by a scenic cart path running from the clubhouse on the south course
@@ -601,8 +603,45 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-md-12">
-          <div class="img_box rounded-2xl overflow-hidden">
+          <!-- <div class="img_box rounded-2xl overflow-hidden">
             <img src="images/img1.jpg">
+          </div> -->
+          <div id="carouselExampleControls"
+            class="carousel slide !mb-0 flex gap-3 items-center justify-center !bg-transparent" data-bs-ride="carousel">
+            <div class="w-full relative">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/welcome-slider/slider-01.jpg" class="d-block w-100 rounded-md" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/welcome-slider/slider-02.jpg" class="d-block w-100 rounded-md" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/welcome-slider/slider-03.jpg" class="d-block w-100 rounded-md" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/welcome-slider/slider-04.jpg" class="d-block w-100 rounded-md" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/welcome-slider/slider-05.jpg" class="d-block w-100 rounded-md" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/welcome-slider/slider-06.jpg" class="d-block w-100 rounded-md" alt="...">
+                </div>
+              </div>
+
+              <!-- Keep the arrow controls -->
+              <button class="carousel-control-prev !opacity-100 !inline-flex !top-1/2 !bottom-auto !-translate-y-1/2 !p-2 !rounded-full !border-2 !border-white !max-w-max !start-3" type="button"
+                data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next !opacity-100 !inline-flex !top-1/2 !bottom-auto !-translate-y-1/2 !p-2 !rounded-full !border-2 !border-white !max-w-max !end-3" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
         </div>
         <div class="col-lg-6 col-md-12">

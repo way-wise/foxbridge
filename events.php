@@ -105,9 +105,7 @@
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
-          </div>
-
-          
+          </div> 
         </div>
       </div>
       <div class="lg:col-span-1 p-8 bg-gray-50 shadow-lg rounded-lg">
