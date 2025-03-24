@@ -485,8 +485,8 @@
     <div class="container">
       <div class="row light mb-5 justify-content-center align-items-center">
         <div class="col-sm col-12">
-          <div class="welcome_clm rounded-2xl overflow-hidden relative" data-aos="fade-up" data-aos-delay="300">
-            <a href="tournament.php">
+          <div class="welcome_clm rounded-2xl overflow-hidden h-[180px] relative" data-aos="fade-up" data-aos-delay="300">
+            <a href="tournament.php" class="size-full">
               <img src="images/s1.png" class="w-full h-full object-cover">
               <div
                 class="absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full bg-[#f27b0a]/50">
@@ -497,9 +497,9 @@
           </div>
         </div>
         <div class="col-sm col-12">
-          <div class="welcome_clm rounded-2xl overflow-hidden relative" data-aos="fade-up" data-aos-delay="400">
-            <a href="league.php">
-              <img src="images/s2.png" class="w-full h-full object-cover">
+          <div class="welcome_clm rounded-2xl overflow-hidden h-[180px] relative" data-aos="fade-up" data-aos-delay="400">
+            <a href="league.php" class="size-full">
+              <img src="images/mixed-golf.jpeg" class="w-full h-full object-cover">
               <div
                 class="absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full bg-[#f27b0a]/50">
                 <span class="-rotate-135">&#8595;</span>
@@ -509,9 +509,9 @@
           </div>
         </div>
         <div class="col-sm col-12">
-          <div class="welcome_clm rounded-2xl overflow-hidden relative" data-aos="fade-up" data-aos-delay="500">
-            <a href="membership.php">
-              <img src="images/s3.png" class="w-full h-full object-cover">
+          <div class="welcome_clm rounded-2xl overflow-hidden h-[180px] relative" data-aos="fade-up" data-aos-delay="500">
+            <a href="membership.php" class="size-full">
+              <img src="images/membership.jpg" class="w-full h-full object-cover object-center">
               <div
                 class="absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full bg-[#f27b0a]/50">
                 <span class="-rotate-135">&#8595;</span>
@@ -521,9 +521,9 @@
           </div>
         </div>
         <div class="col-sm col-12">
-          <div class="welcome_clm rounded-2xl overflow-hidden relative" data-aos="fade-up" data-aos-delay="500">
-            <a href="camp.php">
-              <img src="images/s3.png" class="w-full h-full object-cover">
+          <div class="welcome_clm rounded-2xl overflow-hidden h-[180px] relative" data-aos="fade-up" data-aos-delay="500">
+            <a href="camp.php" class="size-full">
+              <img src="images/juniors.jpg" class="w-full h-full object-cover">
               <div
                 class="absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full bg-[#f27b0a]/50">
                 <span class="-rotate-135">&#8595;</span>
@@ -533,8 +533,8 @@
           </div>
         </div>
         <div class="col-sm col-12">
-          <div class="welcome_clm rounded-2xl overflow-hidden relative" data-aos="fade-up" data-aos-delay="600">
-            <a href="simulators.html">
+          <div class="welcome_clm rounded-2xl overflow-hidden h-[180px] relative" data-aos="fade-up" data-aos-delay="600">
+            <a href="simulators.html" class="size-full">
               <img src="images/s4.png" class="w-full h-full object-cover">
               <div
                 class="absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full bg-[#f27b0a]/50">
