@@ -350,9 +350,47 @@
       <div class="row">
         <div class="col-lg-5 ">
           <!--<img src="images/nadeem.jpg" class="rounded-3  position-relative shadow" alt="" style="width:100%;"  data-aos="slide-top" data-aos-duration="1000">-->
-          <img src="images/outside_view.jpeg" class="rounded-3  position-relative shadow"
-            alt="Foxbridge Golf Club, Uxbridge ON" style="width:100%;" data-aos="slide-top" data-aos-duration="1000">
+          <!-- <img src="images/outside_view.jpeg" class="rounded-3  position-relative shadow"
+            alt="Foxbridge Golf Club, Uxbridge ON" style="width:100%;" data-aos="slide-top" data-aos-duration="1000"> -->
+          <div id="carouselExampleControls"
+            class="carousel slide !mb-0 flex gap-3 items-center justify-center !bg-transparent" data-bs-ride="carousel">
+            <div class="w-full relative">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/welcome-slider/slider-01.jpg" class="d-block w-100 rounded-md" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/welcome-slider/slider-02.jpg" class="d-block w-100 rounded-md" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/welcome-slider/slider-03.jpg" class="d-block w-100 rounded-md" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/welcome-slider/slider-04.jpg" class="d-block w-100 rounded-md" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/welcome-slider/slider-05.jpg" class="d-block w-100 rounded-md" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/welcome-slider/slider-06.jpg" class="d-block w-100 rounded-md" alt="...">
+                </div>
+              </div>
 
+              <!-- Keep the arrow controls -->
+              <button
+                class="carousel-control-prev !opacity-100 !inline-flex !top-1/2 !bottom-auto !-translate-y-1/2 !p-2 !rounded-full !border-2 !border-white !max-w-max !start-3"
+                type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next !opacity-100 !inline-flex !top-1/2 !bottom-auto !-translate-y-1/2 !p-2 !rounded-full !border-2 !border-white !max-w-max !end-3"
+                type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
 
         </div>
         <div class="col-lg-7">
@@ -382,11 +420,16 @@
 
         </div>
       </div>
+      <div class="my-12">
+        <video class="w-full h-[600px]object-cover" autoplay muted loop>
+          <source src="videos/intro.mp4" type="video/mp4">
+        </video>
+      </div>
     </div>
     </div>
   </section>
 
-  <div class="fl-module fl-module-video fl-node-nswe7imkavz1" data-node="nswe7imkavz1">
+  <!-- <div class="fl-module fl-module-video fl-node-nswe7imkavz1" data-node="nswe7imkavz1">
     <div class="fl-module-content fl-node-content">
 
       <div class="fl-video fl-embed-video">
@@ -397,7 +440,7 @@
           referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
     </div>
-  </div>
+  </div> -->
   </div>
 
 
