@@ -31,7 +31,7 @@
           <li><a href="tournament.php" class="nav-link">Tournament</a></li>
          <li><a href="League.php" class="nav-link">Leagues</a></li>
          <li><a href="membership.php" class="nav-link">Memberships</a></li>
-         <li><a href="camps.php" class="nav-link">Academy</a></li>
+         <li><a href="camps.php" class="nav-link">Summer Camp</a></li>
          <li><a href="Corporategolf.php" class="nav-link">Corporate Golf</a></li>
          <li><a href="https://www.foxbridge.ca/tee-time/simulator" class="nav-link">Indoor Simulator</a> </li> 
         <!-- <li><a href="promotions.php" class="nav-link">Promotions</a></li>-->
