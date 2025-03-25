@@ -730,9 +730,52 @@
       </div>
     </div>
   </section>
+  <!-- gallery section -->
+  <section class="services text-center py-20">
+    <div class="container">
+      <div class="sec_title mb-4">
+        <h2>Gallery</h2>
+        <span class="fancy-border" data-aos="flip-left" data-aos-duration="3000"></span>
+      </div>
+      <div class="slider_row">
+        <div class="slider owl-carousel">
+          <div class="item">
+            <div class="content">
+              <div class="grid grid-cols-3 gap-2.5 grid-rows-2 max-h-[600px]">
+                <img src="images/gallery/1.jpg" alt="" class="w-full h-full object-cover row-span-2">
+                <img src="images/gallery/2.jpg" alt="" class="w-full h-full object-cover">
+                <img src="images/gallery/3.jpg" alt="" class="w-full h-full object-cover">
+                <img src="images/gallery/4.jpg" alt="" class="w-full h-full object-cover col-span-2">
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="content">
+              <div class="grid grid-cols-3 gap-2.5 grid-rows-2 max-h-[600px]">
+                <img src="images/gallery/5.jpg" alt="" class="w-full h-full object-cover row-span-2">
+                <img src="images/gallery/6.jpg" alt="" class="w-full h-full object-cover">
+                <img src="images/gallery/7.jpg" alt="" class="w-full h-full object-cover">
+                <img src="images/gallery/8.jpg" alt="" class="w-full h-full object-cover col-span-2">
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="content">
+              <div class="grid grid-cols-3 gap-2.5 grid-rows-2 max-h-[600px]">
+                <img src="images/gallery/9.jpg" alt="" class="w-full h-full object-cover row-span-2">
+                <img src="images/gallery/10.jpg" alt="" class="w-full h-full object-cover">
+                <img src="images/gallery/11.jpg" alt="" class="w-full h-full object-cover">
+                <img src="images/gallery/12.jpg" alt="" class="w-full h-full object-cover col-span-2">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-
-  <section class="services text-center orange-bg pt-5 pb-5 mt-5">
+  <!-- service section -->
+  <section class="services text-center orange-bg pt-5 pb-5">
     <div class="container">
       <div class="sec_title mb-4">
         <h2>Our Services</h2>
