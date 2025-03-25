@@ -612,11 +612,7 @@ footer .copyright {
 }
 
 
-@media (max-width: 1600px) {
-.hole_golf:before {
-    width: 11%;
-}	
-}
+
 @media (max-width: 1366px) {
 h1 {
     font-size: 105px;
@@ -631,9 +627,6 @@ h3 {
 }	
 }
 @media (max-width: 1280px) {
-.hole_golf:before {
-    width: 8%;
-}
 .contact_clm {
     padding: 0% 10% 0% 12%;
 }	
@@ -671,9 +664,6 @@ h1 {
 }
 .hole_clm {
     padding: 30px 20px;
-}
-.hole_golf:before {
-    width: 6%;
 }
 .services button.owl-prev {
     left: 0px;
@@ -727,9 +717,6 @@ h1 {
 }
 .hole_clm {
     width: 100%;
-}
-.hole_golf:before {
-    width: 9%;
 }
 .hole_golf:after {
     bottom: 0px;
