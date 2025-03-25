@@ -353,10 +353,10 @@
       <div class="video-background-content container h-100">
         <div class="flex h-100 text-center justify-center items-center">
           <div class="w-full">
-            <div class="w-100 text-white">
+            <div class="w-100 text-white pt-8">
               <span class="text-sm bg-white backdrop-blur px-4 py-2 rounded-full text-black inline-block !mb-3">Golf,
                 Tournaments, Leagues, Restaurant & Bar</span>
-              <h1 class="display-4">Welcome to <br> Foxbridge Golf Club</h1>
+              <h1 class="display-4 text-white">Welcome to <br> Foxbridge Golf Club</h1>
               <p class="lead mb-0">Experience Golf at its Finest</p>
             </div>
             <div class="innerbookTeaTime w-full !mt-8">
@@ -427,42 +427,27 @@
     <style>
       .video-background-holder {
         position: relative;
-        background-color: black;
-        height: calc(100vh - 72px);
-        min-height: 25rem;
+        height: 100%;
+        min-height: 100vh;
         width: 100%;
         overflow: hidden;
       }
 
       .video-background-holder video {
         position: absolute;
-        top: 50%;
-        left: 50%;
+        top: -100px;
+        bottom: -100px;
+        left: 0;
         min-width: 100%;
-        min-height: 100%;
-        width: auto;
-        height: auto;
+        min-height: calc(100vh + 200px);
+        width: 100%;
+        height: 100%;
         z-index: 0;
-        -ms-transform: translateX(-50%) translateY(-50%);
-        -moz-transform: translateX(-50%) translateY(-50%);
-        -webkit-transform: translateX(-50%) translateY(-50%);
-        transform: translateX(-50%) translateY(-50%);
       }
 
       .video-background-content {
         position: relative;
         z-index: 2;
-      }
-
-      .video-background-overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        background-color: black;
-        opacity: 0.5;
-        z-index: 1;
       }
 
       @media (pointer: coarse) and (hover: none) {
