@@ -497,7 +497,7 @@
           </div>
           <div class="welcome_clm rounded-2xl overflow-hidden h-[180px] relative" data-aos="fade-up" data-aos-delay="500">
             <a href="membership.php" class="size-full">
-              <img src="images/membership.jpg" class="w-full h-full object-cover object-center">
+              <img src="images/landing-gallery/1.jpg" class="w-full h-full object-cover object-center">
               <div
                 class="absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full bg-[#f27b0a]/50">
                 <span class="-rotate-135">&#8595;</span>
@@ -724,30 +724,30 @@
           <div class="item">
             <div class="content">
               <div class="grid grid-cols-3 gap-2.5 grid-rows-2 max-h-[600px]">
-                <img src="images/gallery/1.jpg" alt="" class="w-full h-full object-cover row-span-2">
-                <img src="images/gallery/2.jpg" alt="" class="w-full h-full object-cover">
-                <img src="images/gallery/3.jpg" alt="" class="w-full h-full object-cover">
-                <img src="images/gallery/4.jpg" alt="" class="w-full h-full object-cover col-span-2">
+                <img src="images/landing-gallery/1.jpg" alt="" class="w-full h-full object-cover row-span-2">
+                <img src="images/landing-gallery/2.jpg" alt="" class="w-full h-full object-cover">
+                <img src="images/landing-gallery/3.jpg" alt="" class="w-full h-full object-cover">
+                <img src="images/landing-gallery/4.jpg" alt="" class="w-full h-full object-cover col-span-2">
               </div>
             </div>
           </div>
           <div class="item">
             <div class="content">
               <div class="grid grid-cols-3 gap-2.5 grid-rows-2 max-h-[600px]">
-                <img src="images/gallery/5.jpg" alt="" class="w-full h-full object-cover row-span-2">
-                <img src="images/gallery/6.jpg" alt="" class="w-full h-full object-cover">
-                <img src="images/gallery/7.jpg" alt="" class="w-full h-full object-cover">
-                <img src="images/gallery/8.jpg" alt="" class="w-full h-full object-cover col-span-2">
+                <img src="images/landing-gallery/5.jpg" alt="" class="w-full h-full object-cover row-span-2">
+                <img src="images/landing-gallery/6.jpg" alt="" class="w-full h-full object-cover">
+                <img src="images/landing-gallery/7.jpg" alt="" class="w-full h-full object-cover">
+                <img src="images/landing-gallery/8.jpg" alt="" class="w-full h-full object-cover col-span-2">
               </div>
             </div>
           </div>
           <div class="item">
             <div class="content">
               <div class="grid grid-cols-3 gap-2.5 grid-rows-2 max-h-[600px]">
-                <img src="images/gallery/9.jpg" alt="" class="w-full h-full object-cover row-span-2">
-                <img src="images/gallery/10.jpg" alt="" class="w-full h-full object-cover">
-                <img src="images/gallery/11.jpg" alt="" class="w-full h-full object-cover">
-                <img src="images/gallery/12.jpg" alt="" class="w-full h-full object-cover col-span-2">
+                <img src="images/landing-gallery/9.jpg" alt="" class="w-full h-full object-cover row-span-2">
+                <img src="images/landing-gallery/10.png" alt="" class="w-full h-full object-cover">
+                <img src="images/landing-gallery/11.jpg" alt="" class="w-full h-full object-cover">
+                <img src="images/landing-gallery/12.jpg" alt="" class="w-full h-full object-cover col-span-2">
               </div>
             </div>
           </div>
