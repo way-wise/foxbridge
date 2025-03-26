@@ -421,7 +421,7 @@
           </div>
         </div>
       </div>
-      <img src="svgs/hero-bottom-shape.svg" alt="" class="absolute z-50 -bottom-1 left-0 w-full h-full max-h-[162px]">
+      <img src="svgs/hero-bottom-shape.svg" alt="" class="hidden xl:block absolute z-50 -bottom-5 left-0 w-full h-full max-h-[162px]">
     </div>
 
     <style>
@@ -431,6 +431,11 @@
         min-height: 100vh;
         width: 100%;
         overflow: hidden;
+      }
+      @media (max-width: 991px) {
+        .video-background-holder {
+          min-height: 50vh;
+        }
       }
 
       .video-background-holder video {
@@ -467,10 +472,9 @@
     </style>
   </div>
 
-  <section class="welcome text-center relative z-50">
+  <section class="welcome text-center relative z-50 xl:pt-0 pt-12">
     <div class="container">
-      <div class="row light mb-5 justify-content-center align-items-center">
-        <div class="col-sm col-12">
+      <div class="grid lg:grid-cols-5 sm:grid-cols-3 grid-cols-2  gap-4 light mb-5 justify-content-center align-items-center">
           <div class="welcome_clm rounded-2xl overflow-hidden h-[180px] relative" data-aos="fade-up" data-aos-delay="300">
             <a href="tournament.php" class="size-full">
               <img src="images/s1.png" class="w-full h-full object-cover">
@@ -481,8 +485,6 @@
               </div>
             </a>
           </div>
-        </div>
-        <div class="col-sm col-12">
           <div class="welcome_clm rounded-2xl overflow-hidden h-[180px] relative" data-aos="fade-up" data-aos-delay="400">
             <a href="league.php" class="size-full">
               <img src="images/mixed-golf.jpeg" class="w-full h-full object-cover">
@@ -493,8 +495,6 @@
               </div>
             </a>
           </div>
-        </div>
-        <div class="col-sm col-12">
           <div class="welcome_clm rounded-2xl overflow-hidden h-[180px] relative" data-aos="fade-up" data-aos-delay="500">
             <a href="membership.php" class="size-full">
               <img src="images/membership.jpg" class="w-full h-full object-cover object-center">
@@ -505,8 +505,6 @@
               </div>
             </a>
           </div>
-        </div>
-        <div class="col-sm col-12">
           <div class="welcome_clm rounded-2xl overflow-hidden h-[180px] relative" data-aos="fade-up" data-aos-delay="500">
             <a href="camp.php" class="size-full">
               <img src="images/juniors.jpg" class="w-full h-full object-cover">
@@ -517,8 +515,6 @@
               </div>
             </a>
           </div>
-        </div>
-        <div class="col-sm col-12">
           <div class="welcome_clm rounded-2xl overflow-hidden h-[180px] relative" data-aos="fade-up" data-aos-delay="600">
             <a href="simulators.html" class="size-full">
               <img src="images/s4.png" class="w-full h-full object-cover">

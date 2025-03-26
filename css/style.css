@@ -747,9 +747,7 @@ h1 {
 header.sticky_menu .col-sm-4 {
     width: 33.3333% !important;
 }
-header.sticky_menu .left_menu.float-end{
-	display:none;
-	}
+
 .carousel-indicators {
     bottom: 0% !important;
 }
@@ -2093,6 +2091,11 @@ START TEE TIME
 @media (max-width: 1200px) {
 .innerbookTeaTime{width:100% !important;}
 }
+@media (max-width: 991px) {
+    .innerbookTeaTime {
+        display: none !important;
+    }
+}
 @media (max-width: 767px) {
     .simulatorbox{height: auto !important; }
 	.bookTeaTime{display:none !important;}
@@ -2101,7 +2104,7 @@ START TEE TIME
 }
 
 .hideonlgSreen{display:none;}
-@media (max-width: 767px) {
+@media (max-width: 991px) {
 	.homeBookTeaTime .hideonlgSreen{display:block !important;}
 }	
 
