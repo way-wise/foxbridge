@@ -479,9 +479,9 @@
             <a href="tournament.php" class="size-full">
               <img src="images/s1.png" class="w-full h-full object-cover">
               <div
-                class="absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full bg-[#f27b0a]/50">
+                class="absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full !text-white bg-[#f27b0a]/50">
                 <span class="-rotate-135">&#8595;</span>
-                <h3>Tournaments</h3>
+                <h3 class="!text-white">Tournaments</h3>
               </div>
             </a>
           </div>
@@ -489,9 +489,9 @@
             <a href="league.php" class="size-full">
               <img src="images/mixed-golf.jpeg" class="w-full h-full object-cover">
               <div
-                class="absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full bg-[#f27b0a]/50">
+                class="absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full !text-white bg-[#f27b0a]/50">
                 <span class="-rotate-135">&#8595;</span>
-                <h3>Leagues</h3>
+                <h3 class="!text-white">Leagues</h3>
               </div>
             </a>
           </div>
@@ -499,9 +499,9 @@
             <a href="membership.php" class="size-full">
               <img src="images/landing-gallery/1.jpg" class="w-full h-full object-cover object-center">
               <div
-                class="absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full bg-[#f27b0a]/50">
+                class="absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full !text-white bg-[#f27b0a]/50">
                 <span class="-rotate-135">&#8595;</span>
-                <h3>Memberships</h3>
+                <h3 class="!text-white">Memberships</h3>
               </div>
             </a>
           </div>
@@ -509,9 +509,9 @@
             <a href="camp.php" class="size-full">
               <img src="images/juniors.jpg" class="w-full h-full object-cover">
               <div
-                class="absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full bg-[#f27b0a]/50">
+                class="absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full !text-white bg-[#f27b0a]/50">
                 <span class="-rotate-135">&#8595;</span>
-                <h3>Summer Camp</h3>
+                <h3 class="!text-white">Summer Camp</h3>
               </div>
             </a>
           </div>
@@ -519,15 +519,15 @@
             <a href="simulators.html" class="size-full">
               <img src="images/s4.png" class="w-full h-full object-cover">
               <div
-                class="absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full bg-[#f27b0a]/50">
+                class="absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full !text-white bg-[#f27b0a]/50">
                 <span class="-rotate-135">&#8595;</span>
-                <h3>Indoor Simulators</h3>
+                <h3 class="!text-white">Indoor Simulators</h3>
               </div>
             </a>
           </div>
         </div>
       </div>
-      <div class="content mb-5" data-aos="fade-up">
+      <div class="container content mb-5" data-aos="fade-up">
         <h2><span data-aos="fade-right" data-aos-delay="300">Welcome</span> <span data-aos="fade-right"
             data-aos-delay="500">To</span> <span data-aos="fade-right" data-aos-delay="700">Foxbridge</span> <span
             data-aos="fade-right" data-aos-delay="900">Golf</span> <span data-aos="fade-right"
@@ -723,7 +723,7 @@
         <div class="slider owl-carousel">
           <div class="item">
             <div class="content">
-              <div class="grid grid-cols-3 gap-2.5 grid-rows-2 max-h-[600px]">
+              <div class="grid grid-cols-3 gap-2.5 grid-rows-2 lg:h-[600px] h-[320px]">
                 <img src="images/landing-gallery/1.jpg" alt="" class="w-full h-full object-cover row-span-2">
                 <img src="images/landing-gallery/2.jpg" alt="" class="w-full h-full object-cover">
                 <img src="images/landing-gallery/3.jpg" alt="" class="w-full h-full object-cover">
@@ -733,7 +733,7 @@
           </div>
           <div class="item">
             <div class="content">
-              <div class="grid grid-cols-3 gap-2.5 grid-rows-2 max-h-[600px]">
+              <div class="grid grid-cols-3 gap-2.5 grid-rows-2 lg:h-[600px] h-[320px]">
                 <img src="images/landing-gallery/5.jpg" alt="" class="w-full h-full object-cover row-span-2">
                 <img src="images/landing-gallery/6.jpg" alt="" class="w-full h-full object-cover">
                 <img src="images/landing-gallery/7.jpg" alt="" class="w-full h-full object-cover">
@@ -743,7 +743,7 @@
           </div>
           <div class="item">
             <div class="content">
-              <div class="grid grid-cols-3 gap-2.5 grid-rows-2 max-h-[600px]">
+              <div class="grid grid-cols-3 gap-2.5 grid-rows-2 lg:h-[600px] h-[320px]">
                 <img src="images/landing-gallery/9.jpg" alt="" class="w-full h-full object-cover row-span-2">
                 <img src="images/landing-gallery/10.png" alt="" class="w-full h-full object-cover">
                 <img src="images/landing-gallery/11.jpg" alt="" class="w-full h-full object-cover">
