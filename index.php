@@ -347,7 +347,7 @@
   <div>
     <div class="video-background-holder relative">
       <div class="video-background-overlay"></div>
-      <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <video playsinline="playsinline" poster="images/1.jpg" autoplay="autoplay" muted="muted" loop="loop">
         <source src="videos/intro.mp4" type="video/mp4">
       </video>
       <div class="video-background-content container h-100">
