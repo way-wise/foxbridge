@@ -31,6 +31,12 @@
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-226072037-1"></script>
+  <style>
+    .fc .fc-toolbar {
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+  </style>
 </head>
 
 <body>
