@@ -42,7 +42,7 @@ $query = $database->query($sql);
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="owl/css/owl.carousel.css">
-
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <script src="js/jquery.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
@@ -78,7 +78,7 @@ $query = $database->query($sql);
           <div class="promo-card rounded-3 overflow-hidden shadow-sm h-100">
             <img src="images/promotions/Camps-2025.jpeg" class="img-fluid w-100" alt="Golf Special">
             <div class="p-4 bg-white">
-              <h3 class="h5 mb-3">Junior Golf Summer Camp</h3>
+              <h3 class="h5 mb-3 !font-semibold">Junior Golf Summer Camp</h3>
               <p class="text-muted mb-3">Starting July 15th 5 Days a week $300 Per Week 9 AM to 12 Noon
               </p>
               <a href="/camps.php" class="btn btn-outline-dark rounded-pill px-4">Register Now</a>
@@ -90,7 +90,7 @@ $query = $database->query($sql);
           <div class="promo-card rounded-3 overflow-hidden shadow-sm h-100">
             <img src="images/promotions/Camps1.jpeg" class="img-fluid w-100" alt="Golf Package">
             <div class="p-4 bg-white">
-              <h3 class="h5 mb-3">Kids Camp 2025</h3>
+              <h3 class="h5 mb-3 !font-semibold">Kids Camp 2025</h3>
               <p class="text-muted mb-3">Timing 9 AM to 12 Noon. Lunch Program & Snacks Included
               </p>
               <a href="/camps.php" class="btn btn-outline-dark rounded-pill px-4">Register Now</a>
@@ -102,7 +102,7 @@ $query = $database->query($sql);
           <div class="promo-card rounded-3 overflow-hidden shadow-sm h-100">
             <img src="images/promotions/Tournaments-2025.jpeg" class="img-fluid w-100" alt="Golf Deal">
             <div class="p-4 bg-white">
-              <h3 class="h5 mb-3">Golf Tournaments At Foxbridge Golf Course</h3>
+              <h2 class="h5 mb-3 !font-semibold">Golf Tournaments At Foxbridge Golf Course</h2>
               <p class="text-muted mb-3">Book for 4 players and get complimentary power carts. Available all week.</p>
               <a href="/tournaments.php" class="btn btn-outline-dark rounded-pill px-4">Register Now</a>
             </div>
