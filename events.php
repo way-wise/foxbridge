@@ -110,7 +110,7 @@
           <img src="images/corporate-events.jpg" alt="Corporate Events" class="w-full h-48 object-cover">
           <div class="p-6 grow flex flex-col items-start justify-between">
             <h3 class="text-xl font-bold mb-2">Corporate Events</h3>
-            <p class="text-gray-600 mb-4 grow">From team building activities to client appreciation events, we'll help you create an impressive corporate gathering in our professional setting.</p>
+            <p class="text-gray-600 font-normal mb-4 grow">From team building activities to client appreciation events, we'll help you create an impressive corporate gathering in our professional setting.</p>
             <a href="#" class="inline-block px-6 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition duration-200">Learn More</a>
           </div>
         </div>
@@ -119,7 +119,7 @@
           <img src="images/tournament2.jpg" alt="Golf Tournaments" class="w-full h-48 object-cover">
           <div class="p-6 grow flex flex-col items-start justify-between">
             <h3 class="text-xl font-bold mb-2">Golf Tournaments</h3>
-            <p class="text-gray-600 mb-4 grow">Organize a memorable golf tournament for your charity, company, or group. Our experienced staff will handle all the details.</p>
+            <p class="text-gray-600 font-normal mb-4 grow">Organize a memorable golf tournament for your charity, company, or group. Our experienced staff will handle all the details.</p>
             <a href="#" class="inline-block px-6 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition duration-200">Learn More</a>
           </div>
         </div>
@@ -128,7 +128,7 @@
           <img src="images/gallery/14.jpg" alt="Life Celebrations" class="w-full h-48 object-cover">
           <div class="p-6 grow flex flex-col items-start justify-between">
             <h3 class="text-xl font-bold mb-2">Life Celebrations</h3>
-            <p class="text-gray-600 mb-4 grow">Whether it's a birthday, anniversary, baby shower or celebration of life - we'll help make your special moments truly memorable.</p>
+            <p class="text-gray-600 font-normal mb-4 grow">Whether it's a birthday, anniversary, baby shower or celebration of life - we'll help make your special moments truly memorable.</p>
             <a href="#" class="inline-block px-6 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition duration-200">Learn More</a>
           </div>
         </div>
@@ -137,7 +137,7 @@
           <img src="images/Wedding/wedding-02.webp" alt="Bridal Showers" class="w-full h-48 object-cover">
           <div class="p-6 grow flex flex-col items-start justify-between">
             <h3 class="text-xl font-bold mb-2">Bridal Showers</h3>
-            <p class="text-gray-600 mb-4 grow">Celebrate the bride-to-be in our elegant venue. We offer customizable packages to create the perfect pre-wedding celebration.</p>
+            <p class="text-gray-600 font-normal mb-4 grow">Celebrate the bride-to-be in our elegant venue. We offer customizable packages to create the perfect pre-wedding celebration.</p>
             <a href="#" class="inline-block px-6 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition duration-200">Learn More</a>
           </div>
         </div>
@@ -146,7 +146,7 @@
           <img src="images/Wedding/wedding-03.webp" alt="Baby Showers" class="w-full h-48 object-cover">
           <div class="p-6 grow flex flex-col items-start justify-between">
             <h3 class="text-xl font-bold mb-2">Baby Showers</h3>
-            <p class="text-gray-600 mb-4 grow">Welcome your little one with a joyful celebration. Our warm and inviting spaces are perfect for hosting your baby shower.</p>
+            <p class="text-gray-600 font-normal mb-4 grow">Welcome your little one with a joyful celebration. Our warm and inviting spaces are perfect for hosting your baby shower.</p>
             <a href="#" class="inline-block px-6 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition duration-200">Learn More</a>
           </div>
         </div>
@@ -155,7 +155,7 @@
           <img src="images/Wedding/wedding-04.webp" alt="Custom Events" class="w-full h-48 object-cover">
           <div class="p-6 grow flex flex-col items-start justify-between">
             <h3 class="text-xl font-bold mb-2">Custom Events</h3>
-            <p class="text-gray-600 mb-4 grow">Have something unique in mind? Our flexible venues and dedicated team can accommodate any special occasion or celebration.</p>
+            <p class="text-gray-600 font-normal mb-4 grow">Have something unique in mind? Our flexible venues and dedicated team can accommodate any special occasion or celebration.</p>
             <a href="#" class="inline-block px-6 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition duration-200">Learn More</a>
           </div>
         </div>
