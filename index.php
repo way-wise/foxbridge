@@ -359,9 +359,9 @@
               <h1 class="display-4 text-white">Welcome to <br> Foxbridge Golf Club</h1>
               <p class="lead mb-0">Experience Golf at its Finest</p>
             </div>
-            <div class="innerbookTeaTime w-full !mt-8">
-              <div class="row row-cols-5">
-                <div class="col border-right">
+            <div class="innerbookTeaTime w-full max-w-[500px] !mt-8">
+              <div class="grid grid-cols-3">
+                <!-- <div class="col border-right">
                   <div class="selectLocation commondropdown">
                     <label for="floatingSelect"><i class="fa fa-map-marker" aria-hidden="true"></i> Location</label>
                     <div class="d-flex justify-content-between align-items-center">
@@ -375,10 +375,10 @@
                     <div style="clear:both"></div>
 
                   </div>
-                </div>
-                <div class="col border-right">
-                  <div class="selectDate commondropdown">
-                    <label for="Date"><i class="fa fa-calendar" aria-hidden="true"></i> Date</label>
+                </div> -->
+                <div class="col-span-2 border-right">
+                  <div class="selectDate commondropdown !items-start">
+                    <label for="Date" class="flex gap-2 items-center w-full"><i class="fa fa-calendar" aria-hidden="true"></i> Date</label>
                     <div class="input-group date">
                       <input type="text" id="tee-date" class="form-control tee-date" readonly value="YYYY-MM-DD"
                         placeholder="YYYY-MM-DD"><span class="input-group-addon"><i
@@ -387,7 +387,7 @@
                   </div>
                 </div>
 
-                <div class="col border-right">
+                <!-- <div class="col border-right">
                   <div class="commondropdown">
                     <label for="tee-players"><i class="fa fa-user" aria-hidden="true"></i> Players</label>
                     <select class="form-select tee-players" id="tee-players" aria-label="tee-players">
@@ -398,9 +398,9 @@
                       <option value="4">4 Player</option>
                     </select>
                   </div>
-                </div>
+                </div> -->
 
-                <div class="col border-right">
+                <!-- <div class="col border-right">
                   <div class="commondropdown">
                     <label for="tee-holes"><i class="fa fa-flag" aria-hidden="true"></i> Holes</label>
                     <select class="form-select tee-holes" id="tee-holes" aria-label="tee-holes">
@@ -410,7 +410,7 @@
                       <option value="18">18 - holes</option>
                     </select>
                   </div>
-                </div>
+                </div> -->
                 <div class="col d-flex align-items-center justify-content-center">
                   <a class="tee-search" style="cursor: pointer;"> <span class="pe-2"><i class="fa fa-search"
                         aria-hidden="true"></i></span> Search </a>
@@ -605,6 +605,15 @@
             <div class="w-full relative">
               <div class="carousel-inner">
                 <div class="carousel-item active">
+                  <img src="images/welcome-slider/club-house-1.jpeg" class="d-block w-100 rounded-md" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/welcome-slider/club-house-2.jpeg" class="d-block w-100 rounded-md" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/welcome-slider/slider-04.jpg" class="d-block w-100 rounded-md" alt="...">
+                </div>
+                <div class="carousel-item">
                   <img src="images/welcome-slider/slider-01.jpg" class="d-block w-100 rounded-md" alt="...">
                 </div>
                 <div class="carousel-item">
@@ -612,15 +621,6 @@
                 </div>
                 <div class="carousel-item">
                   <img src="images/welcome-slider/slider-03.jpg" class="d-block w-100 rounded-md" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="images/welcome-slider/slider-04.jpg" class="d-block w-100 rounded-md" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="images/welcome-slider/slider-05.jpg" class="d-block w-100 rounded-md" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="images/welcome-slider/slider-06.jpg" class="d-block w-100 rounded-md" alt="...">
                 </div>
               </div>
 
