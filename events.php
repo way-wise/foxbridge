@@ -65,38 +65,38 @@
           <div class="carousel-thumbnails">
             <div class="flex flex-col gap-2 justify-center items-center">
               <div class="thumb" data-bs-target="#carouselExampleControls" data-bs-slide-to="0">
-                <img src="images/wedding/wedding-01.jpeg" class="img-fluid" alt="thumbnail 1">
+                <img src="images/wedding/wedding-01.webp" class="img-fluid" alt="thumbnail 1">
               </div>
               <div class="thumb" data-bs-target="#carouselExampleControls" data-bs-slide-to="1">
-                <img src="images/wedding/wedding-02.jpeg" class="img-fluid" alt="thumbnail 2">
+                <img src="images/wedding/wedding-02.webp" class="img-fluid" alt="thumbnail 2">
               </div>
               <div class="thumb" data-bs-target="#carouselExampleControls" data-bs-slide-to="2">
-                <img src="images/wedding/wedding-03.jpeg" class="img-fluid" alt="thumbnail 3">
+                <img src="images/wedding/wedding-03.webp" class="img-fluid" alt="thumbnail 3">
               </div>
               <div class="thumb" data-bs-target="#carouselExampleControls" data-bs-slide-to="3">
-                <img src="images/wedding/wedding-04.jpeg" class="img-fluid" alt="thumbnail 4">
+                <img src="images/wedding/wedding-04.webp" class="img-fluid" alt="thumbnail 4">
               </div>
-              <div class="thumb" data-bs-target="#carouselExampleControls" data-bs-slide-to="3">
-                <img src="images/wedding/wedding-05.jpeg" class="img-fluid" alt="thumbnail 5">
+              <div class="thumb" data-bs-target="#carouselExampleControls" data-bs-slide-to="4">
+                <img src="images/wedding/wedding-05.webp" class="img-fluid" alt="thumbnail 5">
               </div>
             </div>
           </div>
           <div class="w-full relative">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="images/wedding/wedding-01.jpeg" class="d-block w-100" alt="...">
+                <img src="images/wedding/wedding-01.webp" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="images/wedding/wedding-02.jpeg" class="d-block w-100" alt="...">
+                <img src="images/wedding/wedding-02.webp" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="images/wedding/wedding-03.jpeg" class="d-block w-100" alt="...">
+                <img src="images/wedding/wedding-03.webp" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="images/wedding/wedding-04.jpeg" class="d-block w-100" alt="...">
+                <img src="images/wedding/wedding-04.webp" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="images/wedding/wedding-05.jpeg" class="d-block w-100" alt="...">
+                <img src="images/wedding/wedding-05.webp" class="d-block w-100" alt="...">
               </div>
             </div>
 
