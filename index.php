@@ -753,7 +753,7 @@
                 <img src="images/landing-gallery/9.jpg" alt="" class="w-full h-full object-cover row-span-2">
                 <img src="images/landing-gallery/10.png" alt="" class="w-full h-full object-cover">
                 <img src="images/landing-gallery/11.jpg" alt="" class="w-full h-full object-cover">
-                <img src="images/landing-gallery/12.jpg" alt="" class="w-full h-full object-cover col-span-2">
+                <img src="images/landing-gallery/12.webp" alt="" class="w-full h-full object-cover col-span-2">
               </div>
             </div>
           </div>
