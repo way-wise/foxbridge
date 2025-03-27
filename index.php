@@ -359,7 +359,8 @@
               <h1 class="display-4 text-white">Welcome to <br> Foxbridge Golf Club</h1>
               <p class="lead mb-0">Experience Golf at its Finest</p>
             </div>
-            <div class="innerbookTeaTime w-full max-w-[500px] !mt-8">
+            <div class="innerbookTeaTime w-full max-w-[500px] !rounded-xl !mt-8 !p-5">
+              <h2 class="text-black !text-2xl font-bold mb-2">Book Tee Time</h2>
               <div class="grid grid-cols-3">
                 <!-- <div class="col border-right">
                   <div class="selectLocation commondropdown">
@@ -412,7 +413,7 @@
                     </select>
                   </div>
                 </div> -->
-                <div class="col d-flex align-items-center justify-content-center">
+                <div class="col d-flex align-items-center justify-content-end">
                   <a class="tee-search" style="cursor: pointer;"> <span class="pe-2"><i class="fa fa-search"
                         aria-hidden="true"></i></span> Search </a>
                 </div>
