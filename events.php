@@ -111,7 +111,7 @@
           <div class="p-6">
             <h3 class="text-xl font-bold mb-2">Corporate Events</h3>
             <p class="text-gray-600 mb-4">From team building activities to client appreciation events, we'll help you create an impressive corporate gathering in our professional setting.</p>
-            <a href="#" class="inline-block px-6 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition duration-200">Plan Your Event</a>
+            <a href="#" class="inline-block px-6 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition duration-200">Learn More</a>
           </div>
         </div>
 
@@ -129,7 +129,7 @@
           <div class="p-6">
             <h3 class="text-xl font-bold mb-2">Life Celebrations</h3>
             <p class="text-gray-600 mb-4">Whether it's a birthday, anniversary, baby shower or celebration of life - we'll help make your special moments truly memorable.</p>
-            <a href="#" class="inline-block px-6 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition duration-200">Book Now</a>
+            <a href="#" class="inline-block px-6 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition duration-200">Learn More</a>
           </div>
         </div>
 
@@ -138,7 +138,7 @@
           <div class="p-6">
             <h3 class="text-xl font-bold mb-2">Bridal Showers</h3>
             <p class="text-gray-600 mb-4">Celebrate the bride-to-be in our elegant venue. We offer customizable packages to create the perfect pre-wedding celebration.</p>
-            <a href="#" class="inline-block px-6 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition duration-200">Start Planning</a>
+            <a href="#" class="inline-block px-6 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition duration-200">Learn More</a>
           </div>
         </div>
 
@@ -147,7 +147,7 @@
           <div class="p-6">
             <h3 class="text-xl font-bold mb-2">Baby Showers</h3>
             <p class="text-gray-600 mb-4">Welcome your little one with a joyful celebration. Our warm and inviting spaces are perfect for hosting your baby shower.</p>
-            <a href="#" class="inline-block px-6 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition duration-200">Reserve Now</a>
+            <a href="#" class="inline-block px-6 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition duration-200">Learn More</a>
           </div>
         </div>
 
@@ -156,7 +156,7 @@
           <div class="p-6">
             <h3 class="text-xl font-bold mb-2">Custom Events</h3>
             <p class="text-gray-600 mb-4">Have something unique in mind? Our flexible venues and dedicated team can accommodate any special occasion or celebration.</p>
-            <a href="#" class="inline-block px-6 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition duration-200">Contact Us</a>
+            <a href="#" class="inline-block px-6 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition duration-200">Learn More</a>
           </div>
         </div>
       </div>
