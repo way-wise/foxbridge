@@ -57,10 +57,117 @@
     </div>
   </div>
 
+  <section>
+    <div class="container">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center py-12">
+        <div class="lg:col-span-1">
+          <h2 class="text-3xl font-bold mb-4">Create Unforgettable Moments</h2>
+          <p class="text-gray-600 mb-6">Welcome to Foxbridge Golf Club's premier event spaces. Whether you're planning a
+            wedding, corporate gathering, or social celebration, our versatile venues provide the perfect backdrop for
+            your special occasion.</p>
+
+          <div class="space-y-4">
+            <div class="flex items-start gap-3">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-orange-500 mt-1" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              </svg>
+              <p>Stunning indoor and outdoor ceremony spaces</p>
+            </div>
+            <div class="flex items-start gap-3">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-orange-500 mt-1" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              </svg>
+              <p>Professional event planning assistance</p>
+            </div>
+            <div class="flex items-start gap-3">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-orange-500 mt-1" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              </svg>
+              <p>Customizable catering packages</p>
+            </div>
+          </div>
+
+          <a href="#"
+            class="inline-block px-6 py-3 bg-orange-500 text-white rounded-lg mt-8 hover:bg-orange-600 transition duration-200">Book
+            Your Event</a>
+        </div>
+
+        <div class="lg:col-span-1">
+          <img src="images/Wedding/wedding-02.webp" alt="Event Space"
+            class="w-full h-[500px] object-cover rounded-lg shadow-lg">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <h2 class="text-3xl font-bold mb-4 text-center">Host Your Special Event</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-12">
+        <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+          <img src="images/Wedding/wedding-01.webp" alt="Corporate Events" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">Corporate Events</h3>
+            <p class="text-gray-600 mb-4">From team building activities to client appreciation events, we'll help you create an impressive corporate gathering in our professional setting.</p>
+            <a href="#" class="inline-block px-6 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition duration-200">Plan Your Event</a>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+          <img src="images/gallery/15.jpg" alt="Golf Tournaments" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">Golf Tournaments</h3>
+            <p class="text-gray-600 mb-4">Organize a memorable golf tournament for your charity, company, or group. Our experienced staff will handle all the details.</p>
+            <a href="#" class="inline-block px-6 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition duration-200">Learn More</a>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+          <img src="images/gallery/14.jpg" alt="Life Celebrations" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">Life Celebrations</h3>
+            <p class="text-gray-600 mb-4">Whether it's a birthday, anniversary, baby shower or celebration of life - we'll help make your special moments truly memorable.</p>
+            <a href="#" class="inline-block px-6 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition duration-200">Book Now</a>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+          <img src="images/Wedding/wedding-02.webp" alt="Bridal Showers" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">Bridal Showers</h3>
+            <p class="text-gray-600 mb-4">Celebrate the bride-to-be in our elegant venue. We offer customizable packages to create the perfect pre-wedding celebration.</p>
+            <a href="#" class="inline-block px-6 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition duration-200">Start Planning</a>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+          <img src="images/Wedding/wedding-03.webp" alt="Baby Showers" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">Baby Showers</h3>
+            <p class="text-gray-600 mb-4">Welcome your little one with a joyful celebration. Our warm and inviting spaces are perfect for hosting your baby shower.</p>
+            <a href="#" class="inline-block px-6 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition duration-200">Reserve Now</a>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+          <img src="images/Wedding/wedding-04.webp" alt="Custom Events" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">Custom Events</h3>
+            <p class="text-gray-600 mb-4">Have something unique in mind? Our flexible venues and dedicated team can accommodate any special occasion or celebration.</p>
+            <a href="#" class="inline-block px-6 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition duration-200">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <div class="container mt-5 inner">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
       <div class="lg:col-span-1">
-        <div id="carouselExampleControls" class="carousel slide !mb-0 flex gap-3 items-center justify-center !bg-transparent" data-bs-ride="carousel">
+        <div id="carouselExampleControls"
+          class="carousel slide !mb-0 flex gap-3 items-center justify-center !bg-transparent" data-bs-ride="carousel">
           <!-- Thumbnail navigation -->
           <div class="carousel-thumbnails">
             <div class="flex flex-col gap-2 justify-center items-center">
@@ -111,7 +218,7 @@
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
-          </div> 
+          </div>
         </div>
       </div>
       <div class="lg:col-span-1 p-8 bg-gray-50 shadow-lg rounded-lg">
@@ -306,9 +413,10 @@
 
     .carousel-thumbnails .thumb.active {
       opacity: 1;
-      border: 1px solid #f97316; /* Orange border for active thumbnail */
+      border: 1px solid #f97316;
+      /* Orange border for active thumbnail */
       border-radius: 4px;
-      background-color:rgba(249, 116, 22, 0.2);
+      background-color: rgba(249, 116, 22, 0.2);
     }
 
     .carousel-thumbnails img {
@@ -344,21 +452,21 @@
   </style>
 
   <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const carousel = document.getElementById('carouselExampleControls');
-    const thumbs = document.querySelectorAll('.carousel-thumbnails .thumb');
-    
-    // Set initial active state
-    thumbs[0].classList.add('active');
-    
-    // Update active thumbnail when carousel slides
-    carousel.addEventListener('slide.bs.carousel', function(e) {
-      // Remove active class from all thumbnails
-      thumbs.forEach(thumb => thumb.classList.remove('active'));
-      // Add active class to current thumbnail
-      thumbs[e.to].classList.add('active');
+    document.addEventListener('DOMContentLoaded', function () {
+      const carousel = document.getElementById('carouselExampleControls');
+      const thumbs = document.querySelectorAll('.carousel-thumbnails .thumb');
+
+      // Set initial active state
+      thumbs[0].classList.add('active');
+
+      // Update active thumbnail when carousel slides
+      carousel.addEventListener('slide.bs.carousel', function (e) {
+        // Remove active class from all thumbnails
+        thumbs.forEach(thumb => thumb.classList.remove('active'));
+        // Add active class to current thumbnail
+        thumbs[e.to].classList.add('active');
+      });
     });
-  });
   </script>
 
 </body>
