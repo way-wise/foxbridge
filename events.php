@@ -107,7 +107,7 @@
       <h2 class="text-3xl font-bold mb-4 text-center">Host Your Special Event</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-12">
         <div class="bg-white rounded-lg shadow-sm overflow-hidden">
-          <img src="images/Wedding/wedding-01.webp" alt="Corporate Events" class="w-full h-48 object-cover">
+          <img src="images/corporate-events.jpg" alt="Corporate Events" class="w-full h-48 object-cover">
           <div class="p-6">
             <h3 class="text-xl font-bold mb-2">Corporate Events</h3>
             <p class="text-gray-600 mb-4">From team building activities to client appreciation events, we'll help you create an impressive corporate gathering in our professional setting.</p>
@@ -116,7 +116,7 @@
         </div>
 
         <div class="bg-white rounded-lg shadow-sm overflow-hidden">
-          <img src="images/gallery/15.jpg" alt="Golf Tournaments" class="w-full h-48 object-cover">
+          <img src="images/tournament2.jpg" alt="Golf Tournaments" class="w-full h-48 object-cover">
           <div class="p-6">
             <h3 class="text-xl font-bold mb-2">Golf Tournaments</h3>
             <p class="text-gray-600 mb-4">Organize a memorable golf tournament for your charity, company, or group. Our experienced staff will handle all the details.</p>
