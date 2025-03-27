@@ -2077,7 +2077,7 @@ START TEE TIME
 .popupTeaTime .dropdown-toggle::after{float:right;margin-top: -13px;  margin-right: 16px;}
 .popupTeaTime .selectLocation label {opacity: 0.65;}
 .popupTeaTime .selectLocation .dropdown .btn{font-size:15px;}
-.Teetimepopup.offcanvas{z-index: 1040;}
+.Teetimepopup.offcanvas{z-index: 999999;}
 .modal#courses{z-index: 1090;}
 .modal-backdrop {
     display: none !important;

@@ -122,7 +122,7 @@
                   </div>
                 </div>
 
-                <div class="col-12 p-3">
+                <!-- <div class="col-12 p-3">
                   <div class="form-floating">
                     <select class="form-select tee-players" id="tee-players" aria-label="Players">
                       <option value="">Select Players</option>
@@ -145,7 +145,7 @@
                     </select>
                     <label for="Holes"><i class="fa fa-flag" aria-hidden="true"></i> Holes</label>
                   </div>
-                </div>
+                </div> -->
 
                 <div class="col-12 p-3 d-flex align-items-center justify-content-center">
                   <a class="tee-search"> <span class="pe-2"><i class="fa fa-search" aria-hidden="true"></i></span>
