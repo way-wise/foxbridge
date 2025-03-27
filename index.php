@@ -378,7 +378,8 @@
                 </div> -->
                 <div class="col-span-2 border-right">
                   <div class="selectDate commondropdown !items-start">
-                    <label for="Date" class="flex gap-2 items-center w-full"><i class="fa fa-calendar" aria-hidden="true"></i> Date</label>
+                    <label for="Date" class="flex gap-2 items-center w-full"><i class="fa fa-calendar"
+                        aria-hidden="true"></i> Date</label>
                     <div class="input-group date">
                       <input type="text" id="tee-date" class="form-control tee-date" readonly value="YYYY-MM-DD"
                         placeholder="YYYY-MM-DD"><span class="input-group-addon"><i
@@ -421,7 +422,8 @@
           </div>
         </div>
       </div>
-      <img src="svgs/hero-bottom-shape.svg" alt="" class="hidden xl:block absolute z-50 -bottom-5 left-0 w-full h-full max-h-[162px]">
+      <img src="svgs/hero-bottom-shape.svg" alt=""
+        class="hidden xl:block absolute z-50 -bottom-5 left-0 w-full h-full max-h-[162px]">
     </div>
 
     <style>
@@ -432,6 +434,7 @@
         width: 100%;
         overflow: hidden;
       }
+
       @media (max-width: 991px) {
         .video-background-holder {
           min-height: 50vh;
@@ -474,75 +477,76 @@
 
   <section class="welcome text-center relative z-50 xl:pt-0 pt-12">
     <div class="container">
-      <div class="grid lg:grid-cols-5 sm:grid-cols-3 grid-cols-2  gap-4 light mb-5 justify-content-center align-items-center">
-          <div class="welcome_clm rounded-2xl overflow-hidden h-[180px] relative" data-aos="fade-up" data-aos-delay="300">
-            <a href="tournament.php" class="size-full">
-              <img src="images/s1.png" class="w-full h-full object-cover">
-              <div
-                class="absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full !text-white bg-[#f27b0a]/50">
-                <span class="-rotate-135">&#8595;</span>
-                <h3 class="!text-white">Tournaments</h3>
-              </div>
-            </a>
-          </div>
-          <div class="welcome_clm rounded-2xl overflow-hidden h-[180px] relative" data-aos="fade-up" data-aos-delay="400">
-            <a href="league.php" class="size-full">
-              <img src="images/mixed-golf.jpeg" class="w-full h-full object-cover">
-              <div
-                class="absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full !text-white bg-[#f27b0a]/50">
-                <span class="-rotate-135">&#8595;</span>
-                <h3 class="!text-white">Leagues</h3>
-              </div>
-            </a>
-          </div>
-          <div class="welcome_clm rounded-2xl overflow-hidden h-[180px] relative" data-aos="fade-up" data-aos-delay="500">
-            <a href="membership.php" class="size-full">
-              <img src="images/landing-gallery/1.jpg" class="w-full h-full object-cover object-center">
-              <div
-                class="absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full !text-white bg-[#f27b0a]/50">
-                <span class="-rotate-135">&#8595;</span>
-                <h3 class="!text-white">Memberships</h3>
-              </div>
-            </a>
-          </div>
-          <div class="welcome_clm rounded-2xl overflow-hidden h-[180px] relative" data-aos="fade-up" data-aos-delay="500">
-            <a href="camp.php" class="size-full">
-              <img src="images/juniors.jpg" class="w-full h-full object-cover">
-              <div
-                class="absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full !text-white bg-[#f27b0a]/50">
-                <span class="-rotate-135">&#8595;</span>
-                <h3 class="!text-white">Summer Camp</h3>
-              </div>
-            </a>
-          </div>
-          <div class="welcome_clm rounded-2xl overflow-hidden h-[180px] relative" data-aos="fade-up" data-aos-delay="600">
-            <a href="simulators.html" class="size-full">
-              <img src="images/s4.png" class="w-full h-full object-cover">
-              <div
-                class="absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full !text-white bg-[#f27b0a]/50">
-                <span class="-rotate-135">&#8595;</span>
-                <h3 class="!text-white">Indoor Simulators</h3>
-              </div>
-            </a>
-          </div>
+      <div
+        class="grid lg:grid-cols-5 sm:grid-cols-3 grid-cols-2  gap-4 light mb-5 justify-content-center align-items-center">
+        <div class="welcome_clm rounded-2xl overflow-hidden h-[180px] relative" data-aos="fade-up" data-aos-delay="300">
+          <a href="tournament.php" class="size-full">
+            <img src="images/s1.png" class="w-full h-full object-cover">
+            <div
+              class="absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full !text-white bg-[#f27b0a]/50">
+              <span class="-rotate-135">&#8595;</span>
+              <h3 class="!text-white">Tournaments</h3>
+            </div>
+          </a>
+        </div>
+        <div class="welcome_clm rounded-2xl overflow-hidden h-[180px] relative" data-aos="fade-up" data-aos-delay="400">
+          <a href="league.php" class="size-full">
+            <img src="images/mixed-golf.jpeg" class="w-full h-full object-cover">
+            <div
+              class="absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full !text-white bg-[#f27b0a]/50">
+              <span class="-rotate-135">&#8595;</span>
+              <h3 class="!text-white">Leagues</h3>
+            </div>
+          </a>
+        </div>
+        <div class="welcome_clm rounded-2xl overflow-hidden h-[180px] relative" data-aos="fade-up" data-aos-delay="500">
+          <a href="membership.php" class="size-full">
+            <img src="images/landing-gallery/1.jpg" class="w-full h-full object-cover object-center">
+            <div
+              class="absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full !text-white bg-[#f27b0a]/50">
+              <span class="-rotate-135">&#8595;</span>
+              <h3 class="!text-white">Memberships</h3>
+            </div>
+          </a>
+        </div>
+        <div class="welcome_clm rounded-2xl overflow-hidden h-[180px] relative" data-aos="fade-up" data-aos-delay="500">
+          <a href="camp.php" class="size-full">
+            <img src="images/juniors.jpg" class="w-full h-full object-cover">
+            <div
+              class="absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full !text-white bg-[#f27b0a]/50">
+              <span class="-rotate-135">&#8595;</span>
+              <h3 class="!text-white">Summer Camp</h3>
+            </div>
+          </a>
+        </div>
+        <div class="welcome_clm rounded-2xl overflow-hidden h-[180px] relative" data-aos="fade-up" data-aos-delay="600">
+          <a href="simulators.html" class="size-full">
+            <img src="images/s4.png" class="w-full h-full object-cover">
+            <div
+              class="absolute flex flex-col items-center justify-center top-0 left-0 w-full h-full !text-white bg-[#f27b0a]/50">
+              <span class="-rotate-135">&#8595;</span>
+              <h3 class="!text-white">Indoor Simulators</h3>
+            </div>
+          </a>
         </div>
       </div>
-      <div class="container content mb-5" data-aos="fade-up">
-        <h2><span data-aos="fade-right" data-aos-delay="300">Welcome</span> <span data-aos="fade-right"
-            data-aos-delay="500">To</span> <span data-aos="fade-right" data-aos-delay="700">Foxbridge</span> <span
-            data-aos="fade-right" data-aos-delay="900">Golf</span> <span data-aos="fade-right"
-            data-aos-delay="1200">Club</span></h2>
-        <span class="fancy-border" data-aos="flip-left" data-aos-duration="3000"></span>
-        <p class="max-w-[820px] mx-auto !text-gray-600 !mt-4 !mb-12">Foxbridge Golf Course is located on the edge of
-          Uxbridge only an hour NE from downtown Toronto. It features
-          rolling terrain, sandy soil, tight fairways, mature trees and well-manicured greens. Foxbridge has seen
-          numerous improvements over the past decade, including several rebuilt holes and a gorgeous new clubhouse. The
-          front and back nines are connected by a scenic cart path running from the clubhouse on the south course
-          through the woods to the north. Check out our latest improvements on the north - a brand new par three hole
-          with an island tee shooting to a brand new green with a mature forest backdrop. We also combined two of our
-          other holes into a new par 5</p>
-        <!--<a href="#" class="theme_btn">Learn More</a> -->
-      </div>
+    </div>
+    <div class="container content mb-5" data-aos="fade-up">
+      <h2><span data-aos="fade-right" data-aos-delay="300">Welcome</span> <span data-aos="fade-right"
+          data-aos-delay="500">To</span> <span data-aos="fade-right" data-aos-delay="700">Foxbridge</span> <span
+          data-aos="fade-right" data-aos-delay="900">Golf</span> <span data-aos="fade-right"
+          data-aos-delay="1200">Club</span></h2>
+      <span class="fancy-border" data-aos="flip-left" data-aos-duration="3000"></span>
+      <p class="max-w-[820px] mx-auto !text-gray-600 !mt-4 !mb-12">Foxbridge Golf Course is located on the edge of
+        Uxbridge only an hour NE from downtown Toronto. It features
+        rolling terrain, sandy soil, tight fairways, mature trees and well-manicured greens. Foxbridge has seen
+        numerous improvements over the past decade, including several rebuilt holes and a gorgeous new clubhouse. The
+        front and back nines are connected by a scenic cart path running from the clubhouse on the south course
+        through the woods to the north. Check out our latest improvements on the north - a brand new par three hole
+        with an island tee shooting to a brand new green with a mature forest backdrop. We also combined two of our
+        other holes into a new par 5</p>
+      <!--<a href="#" class="theme_btn">Learn More</a> -->
+    </div>
     </div>
   </section>
   <!--<section class="club_history">
@@ -608,7 +612,7 @@
                   <img src="images/welcome-slider/club-house-1.jpeg" class="d-block w-100 rounded-md" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="images/welcome-slider/club-house-2.jpeg" class="d-block w-100 rounded-md" alt="...">
+                  <img src="images/welcome-slider/club-house-2.jpeg" class="d-block w-100 rounded-md" alt="...">
                 </div>
                 <div class="carousel-item">
                   <img src="images/welcome-slider/slider-04.jpg" class="d-block w-100 rounded-md" alt="...">
@@ -625,13 +629,15 @@
               </div>
 
               <!-- Keep the arrow controls -->
-              <button class="carousel-control-prev !opacity-100 !inline-flex !top-1/2 !bottom-auto !-translate-y-1/2 !p-2 !rounded-full !border-2 !border-white !max-w-max !start-3" type="button"
-                data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <button
+                class="carousel-control-prev !opacity-100 !inline-flex !top-1/2 !bottom-auto !-translate-y-1/2 !p-2 !rounded-full !border-2 !border-white !max-w-max !start-3"
+                type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
               </button>
-              <button class="carousel-control-next !opacity-100 !inline-flex !top-1/2 !bottom-auto !-translate-y-1/2 !p-2 !rounded-full !border-2 !border-white !max-w-max !end-3" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="next">
+              <button
+                class="carousel-control-next !opacity-100 !inline-flex !top-1/2 !bottom-auto !-translate-y-1/2 !p-2 !rounded-full !border-2 !border-white !max-w-max !end-3"
+                type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
               </button>
@@ -1112,7 +1118,12 @@
   </div>
   <!-- Modal -->
 
-  <a href="#" ID="backToTop"></a>
+  <a href="#" ID="backToTop">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+      class="size-6">
+      <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
+    </svg>
+  </a>
 
   <script src="js/jquery.js"></script>
 
