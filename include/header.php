@@ -43,7 +43,7 @@
 
                   <li class="has-children"><a href="javascript:void();" class="nav-link"><b>Events</b></a>
                      <ul class="dropdown">
-                        <li> <a href="social-events.php" class="nav-link">Social Events</a></li>
+                        <li> <a href="events.php" class="nav-link">Social Events</a></li>
                         <li> <a href="gallery.php" class="nav-link">Events Gallery</a></li>
                         <li> <a href="packages.php" class="nav-link">Events Packages</a></li>
                         <li> <a href="upcoming-events.php" class="nav-link">Upcoming Events</a></li>
@@ -122,7 +122,7 @@
 
          <li class="list"><a href="javascript:void();"><b>Events</b></a>
             <ul class="items">
-               <li> <a href="social-events.php" class="nav-link">Social Events</a></li>
+               <li> <a href="events.php" class="nav-link">Social Events</a></li>
                <li> <a href="gallery.php" class="nav-link">Events Gallery</a></li>
                <li> <a href="packages.php" class="nav-link">Events Packages</a></li>
                <li> <a href="upcoming-events.php" class="nav-link">Upcoming Events</a></li>
