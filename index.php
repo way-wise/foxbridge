@@ -32,13 +32,14 @@
   <link rel="stylesheet" type="text/css" href="owl/css/owl.carousel.css">
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <style>
+    @media (max-width: 768px) {
     .datepicker.dropdown-menu {
       position: fixed;
       top: auto !important;
       left: 10px !important;
       bottom: 10px !important;
       right: 10px !important;
-      z-index: 1000;
+      z-index: 9999999;
       width: calc(100% - 20px);
       height: 50%;
       background-color: #fff;
@@ -50,6 +51,7 @@
       color: #333;
       font-family: Arial, sans-serif;
     }
+  }
     .datepicker table {
       width: 100%;
       height: 100%;
