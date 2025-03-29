@@ -31,6 +31,68 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="owl/css/owl.carousel.css">
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style>
+    .datepicker.dropdown-menu {
+      position: fixed;
+      top: auto !important;
+      left: 10px !important;
+      bottom: 10px !important;
+      right: 10px !important;
+      z-index: 1000;
+      width: calc(100% - 20px);
+      height: 50%;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 10px;
+      font-size: 14px;
+      color: #333;
+      font-family: Arial, sans-serif;
+    }
+    .datepicker table {
+      width: 100%;
+      height: 100%;
+    }
+    .datepicker table tr {
+      width: 100%;
+      height: 100%;
+    }
+    .datepicker table tr td, .datepicker table tr th {
+      height: 40px;
+      font-size: 20px;
+    }
+    .datepicker {
+      background-color: #f8f9fa;
+      border: 1px solid #007bff;
+      border-radius: 5px;
+    }
+    .datepicker table {
+      width: 100%;
+      color: #333;
+    }
+    .datepicker table tr td, .datepicker table tr th {
+      height: 40px;
+      text-align: center;
+      margin: 2px;
+    }
+    .datepicker table tr td.disabled {
+      background-color: #e9ecef;
+      color: #6c757d;
+      position: relative;
+    }
+    .datepicker table tr td.disabled:not(.active):after {
+      content: '';
+      position: absolute;
+      top: 30%;
+      left: 60%;
+      width: 50%;
+      height: 2px;
+      background-color: #6c757d;
+      transform: translate(-50%, -50%) rotate(45deg);
+      transform-origin: left;
+    }
+  </style>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-226072037-1"></script>
   <script>
@@ -1181,9 +1243,10 @@
         autoclose: true,
         todayHighlight: true,
         format: 'yyyy-mm-dd',
-        startDate: today
-
-
+        startDate: today,
+        beforeShowDay: function(date) {
+          return date >= new Date();
+        }
       });
 
     });
