@@ -763,6 +763,32 @@
     </div>
   </section>
 
+  <!-- gallery 2 section -->
+  <section class="services text-center">
+      <div class="slider_row">
+        <div class="slider owl-carousel">
+          <div class="item relative lg:min-h-[650px] min-h-[400px] bg-cover bg-no-repeat bg-center" style="background-image: url('images/welcome-slider/club-house-2.jpeg');">
+            <div class="max-w-xl absolute top-1/2 left-12 -translate-y-1/2 flex items-center justify-center">
+              <div class="!rounded-xl bg-white !text-left text-black p-10 h-full">
+                  <h2 class="!text-3xl font-bold mb-3 !text-left">Scrambles Restaurant & Bar</h2>
+                  <p>Experience the vibrant atmosphere of Scrambles Restaurant & Bar, where every bite and sip is a delight.</p>
+                  <a href="dining-bar.php" class="theme_btn">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="item relative lg:min-h-[650px] min-h-[400px] bg-cover bg-no-repeat bg-center" style="background-image: url('images/gallery/13.jpg');">
+          <div class="max-w-xl absolute top-1/2 left-12 -translate-y-1/2 flex items-center justify-center">
+              <div class="!rounded-xl bg-white !text-left text-black p-10 h-full">
+                  <h2 class="!text-3xl font-bold mb-3">Wedding & Events</h2>
+                  <p>Make your special day unforgettable with our bespoke wedding and event services, tailored to your unique needs.</p>
+                  <a href="venues.php" class="theme_btn">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
   <!-- service section -->
   <section class="services text-center orange-bg pt-5 pb-5">
     <div class="container">
