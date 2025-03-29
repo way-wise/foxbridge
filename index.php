@@ -680,7 +680,7 @@
                   <img src="images/welcome-slider/club-house-2.jpeg" class="d-block w-100 rounded-md" alt="...">
                 </div>
                 <div class="carousel-item">
-                  <img src="images/welcome-slider/slider-04.jpg" class="d-block w-100 rounded-md" alt="...">
+                  <img src="images/welcome-slider/slider-04.webp" class="d-block w-100 rounded-md" alt="...">
                 </div>
                 <div class="carousel-item">
                   <img src="images/welcome-slider/slider-01.jpg" class="d-block w-100 rounded-md" alt="...">
@@ -817,7 +817,7 @@
               <div class="grid grid-cols-3 gap-2.5 grid-rows-2 lg:h-[600px] h-[320px]">
                 <img src="images/landing-gallery/9.jpg" alt="" class="w-full h-full object-cover row-span-2">
                 <img src="images/landing-gallery/10.png" alt="" class="w-full h-full object-cover">
-                <img src="images/landing-gallery/11.jpg" alt="" class="w-full h-full object-cover">
+                <img src="images/landing-gallery/11.webp" alt="" class="w-full h-full object-cover">
                 <img src="images/landing-gallery/12.webp" alt="" class="w-full h-full object-cover col-span-2">
               </div>
             </div>

@@ -366,7 +366,7 @@
                   <img src="images/welcome-slider/slider-03.jpg" class="d-block w-100 rounded-md" alt="...">
                 </div>
                 <div class="carousel-item">
-                  <img src="images/welcome-slider/slider-04.jpg" class="d-block w-100 rounded-md" alt="...">
+                  <img src="images/welcome-slider/slider-04.webp" class="d-block w-100 rounded-md" alt="...">
                 </div>
                 <div class="carousel-item">
                   <img src="images/welcome-slider/slider-05.jpg" class="d-block w-100 rounded-md" alt="...">

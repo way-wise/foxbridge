@@ -109,8 +109,10 @@
                </a>
             </div>
               <div class="item outdoor col-lg-3 col-md-4 col-6 col-sm">
-               <a href="images/gallery/11.jpg" class="fancylight popup-btn" data-fancybox-group="light">
-               <img class="img-fluid" src="images/gallery/11.jpg" alt="">
+               <a href="images/gallery/11.webp
+               " class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="images/gallery/11.webp
+               " alt="">
                </a>
             </div>
              <div class="item outdoor col-lg-3 col-md-4 col-6 col-sm">
